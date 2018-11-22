@@ -33,7 +33,7 @@ public class NewTest {
   }
   @Test
   public void test3(){
-	  assertEquals("2", "2");
+	  assertEquals("2", "1");
   }
 
   @DataProvider
