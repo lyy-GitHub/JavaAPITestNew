@@ -1,0 +1,1378 @@
+2018-11-22 14:01:29.625 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {}->http://www.tuling123.com:80
+2018-11-22 14:01:29.736 [DEBUG] org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to www.tuling123.com:80
+2018-11-22 14:01:29.813 [DEBUG] org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+2018-11-22 14:01:29.813 [DEBUG] org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+2018-11-22 14:01:29.813 [DEBUG] org.apache.http.client.protocol.RequestTargetAuthentication - Target auth state: UNCHALLENGED
+2018-11-22 14:01:29.813 [DEBUG] org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+2018-11-22 14:01:29.817 [DEBUG] com.yy.util.SSLClient - Attempt 1 to execute request
+2018-11-22 14:01:29.817 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection - Sending request: POST /openapi/api/v2 HTTP/1.1
+2018-11-22 14:01:29.836 [DEBUG] org.apache.http.wire -  >> "POST /openapi/api/v2 HTTP/1.1[\r][\n]"
+2018-11-22 14:01:29.836 [DEBUG] org.apache.http.wire -  >> "Content-Type: application/json[\r][\n]"
+2018-11-22 14:01:29.836 [DEBUG] org.apache.http.wire -  >> "Content-Length: 14[\r][\n]"
+2018-11-22 14:01:29.840 [DEBUG] org.apache.http.wire -  >> "Content-Type: application/json[\r][\n]"
+2018-11-22 14:01:29.840 [DEBUG] org.apache.http.wire -  >> "Host: www.tuling123.com[\r][\n]"
+2018-11-22 14:01:29.840 [DEBUG] org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+2018-11-22 14:01:29.840 [DEBUG] org.apache.http.wire -  >> "User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_121)[\r][\n]"
+2018-11-22 14:01:29.840 [DEBUG] org.apache.http.wire -  >> "[\r][\n]"
+2018-11-22 14:01:29.840 [DEBUG] org.apache.http.headers - >> POST /openapi/api/v2 HTTP/1.1
+2018-11-22 14:01:29.840 [DEBUG] org.apache.http.headers - >> Content-Type: application/json
+2018-11-22 14:01:29.840 [DEBUG] org.apache.http.headers - >> Content-Length: 14
+2018-11-22 14:01:29.840 [DEBUG] org.apache.http.headers - >> Content-Type: application/json
+2018-11-22 14:01:29.840 [DEBUG] org.apache.http.headers - >> Host: www.tuling123.com
+2018-11-22 14:01:29.840 [DEBUG] org.apache.http.headers - >> Connection: Keep-Alive
+2018-11-22 14:01:29.840 [DEBUG] org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_121)
+2018-11-22 14:01:29.840 [DEBUG] org.apache.http.wire -  >> "{'key':'???1'}"
+2018-11-22 14:01:29.899 [DEBUG] org.apache.http.wire -  << "HTTP/1.1 500 Internal Server Error[\r][\n]"
+2018-11-22 14:01:29.903 [DEBUG] org.apache.http.wire -  << "Date: Thu, 22 Nov 2018 06:01:30 GMT[\r][\n]"
+2018-11-22 14:01:29.903 [DEBUG] org.apache.http.wire -  << "Content-Type: text/html; charset=UTF-8[\r][\n]"
+2018-11-22 14:01:29.903 [DEBUG] org.apache.http.wire -  << "Content-Length: 193[\r][\n]"
+2018-11-22 14:01:29.903 [DEBUG] org.apache.http.wire -  << "Connection: keep-alive[\r][\n]"
+2018-11-22 14:01:29.903 [DEBUG] org.apache.http.wire -  << "[\r][\n]"
+2018-11-22 14:01:29.903 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 500 Internal Server Error
+2018-11-22 14:01:29.903 [DEBUG] org.apache.http.headers - << HTTP/1.1 500 Internal Server Error
+2018-11-22 14:01:29.903 [DEBUG] org.apache.http.headers - << Date: Thu, 22 Nov 2018 06:01:30 GMT
+2018-11-22 14:01:29.903 [DEBUG] org.apache.http.headers - << Content-Type: text/html; charset=UTF-8
+2018-11-22 14:01:29.903 [DEBUG] org.apache.http.headers - << Content-Length: 193
+2018-11-22 14:01:29.903 [DEBUG] org.apache.http.headers - << Connection: keep-alive
+2018-11-22 14:01:29.926 [DEBUG] com.yy.util.SSLClient - Connection can be kept alive indefinitely
+2018-11-22 14:01:29.950 [DEBUG] org.apache.http.wire -  << "<html>[\r][\n]"
+2018-11-22 14:01:29.950 [DEBUG] org.apache.http.wire -  << "<head><title>500 Internal Server Error</title></head>[\r][\n]"
+2018-11-22 14:01:29.950 [DEBUG] org.apache.http.wire -  << "<body bgcolor="white">[\r][\n]"
+2018-11-22 14:01:29.950 [DEBUG] org.apache.http.wire -  << "<center><h1>500 Internal Server Error</h1></center>[\r][\n]"
+2018-11-22 14:01:29.950 [DEBUG] org.apache.http.wire -  << "<hr><center>nginx/1.11.5</center>[\r][\n]"
+2018-11-22 14:01:29.950 [DEBUG] org.apache.http.wire -  << "</body>[\r][\n]"
+2018-11-22 14:01:29.950 [DEBUG] org.apache.http.wire -  << "</html>[\r][\n]"
+2018-11-22 14:01:29.950 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@5745ca0e
+2018-11-22 14:01:29.950 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager - Connection can be kept alive indefinitely
+2018-11-22 14:01:29.950 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:1375<->39.107.192.176:80 closed
+2018-11-22 14:01:29.982 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {}->http://www.tuling123.com:80
+2018-11-22 14:01:29.982 [DEBUG] org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to www.tuling123.com:80
+2018-11-22 14:01:30.048 [DEBUG] org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+2018-11-22 14:01:30.048 [DEBUG] org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+2018-11-22 14:01:30.048 [DEBUG] org.apache.http.client.protocol.RequestTargetAuthentication - Target auth state: UNCHALLENGED
+2018-11-22 14:01:30.052 [DEBUG] org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+2018-11-22 14:01:30.052 [DEBUG] com.yy.util.SSLClient - Attempt 1 to execute request
+2018-11-22 14:01:30.052 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection - Sending request: POST /openapi/api/v2 HTTP/1.1
+2018-11-22 14:01:30.052 [DEBUG] org.apache.http.wire -  >> "POST /openapi/api/v2 HTTP/1.1[\r][\n]"
+2018-11-22 14:01:30.053 [DEBUG] org.apache.http.wire -  >> "Content-Type: application/json[\r][\n]"
+2018-11-22 14:01:30.053 [DEBUG] org.apache.http.wire -  >> "Content-Length: 14[\r][\n]"
+2018-11-22 14:01:30.053 [DEBUG] org.apache.http.wire -  >> "Content-Type: application/json[\r][\n]"
+2018-11-22 14:01:30.053 [DEBUG] org.apache.http.wire -  >> "Host: www.tuling123.com[\r][\n]"
+2018-11-22 14:01:30.053 [DEBUG] org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+2018-11-22 14:01:30.054 [DEBUG] org.apache.http.wire -  >> "User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_121)[\r][\n]"
+2018-11-22 14:01:30.054 [DEBUG] org.apache.http.wire -  >> "[\r][\n]"
+2018-11-22 14:01:30.054 [DEBUG] org.apache.http.headers - >> POST /openapi/api/v2 HTTP/1.1
+2018-11-22 14:01:30.054 [DEBUG] org.apache.http.headers - >> Content-Type: application/json
+2018-11-22 14:01:30.056 [DEBUG] org.apache.http.headers - >> Content-Length: 14
+2018-11-22 14:01:30.056 [DEBUG] org.apache.http.headers - >> Content-Type: application/json
+2018-11-22 14:01:30.056 [DEBUG] org.apache.http.headers - >> Host: www.tuling123.com
+2018-11-22 14:01:30.057 [DEBUG] org.apache.http.headers - >> Connection: Keep-Alive
+2018-11-22 14:01:30.057 [DEBUG] org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_121)
+2018-11-22 14:01:30.057 [DEBUG] org.apache.http.wire -  >> "{'key':'???2'}"
+2018-11-22 14:01:30.144 [DEBUG] org.apache.http.wire -  << "HTTP/1.1 500 Internal Server Error[\r][\n]"
+2018-11-22 14:01:30.144 [DEBUG] org.apache.http.wire -  << "Date: Thu, 22 Nov 2018 06:01:30 GMT[\r][\n]"
+2018-11-22 14:01:30.144 [DEBUG] org.apache.http.wire -  << "Content-Type: text/html; charset=UTF-8[\r][\n]"
+2018-11-22 14:01:30.144 [DEBUG] org.apache.http.wire -  << "Content-Length: 193[\r][\n]"
+2018-11-22 14:01:30.144 [DEBUG] org.apache.http.wire -  << "Connection: keep-alive[\r][\n]"
+2018-11-22 14:01:30.144 [DEBUG] org.apache.http.wire -  << "[\r][\n]"
+2018-11-22 14:01:30.144 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 500 Internal Server Error
+2018-11-22 14:01:30.144 [DEBUG] org.apache.http.headers - << HTTP/1.1 500 Internal Server Error
+2018-11-22 14:01:30.144 [DEBUG] org.apache.http.headers - << Date: Thu, 22 Nov 2018 06:01:30 GMT
+2018-11-22 14:01:30.144 [DEBUG] org.apache.http.headers - << Content-Type: text/html; charset=UTF-8
+2018-11-22 14:01:30.144 [DEBUG] org.apache.http.headers - << Content-Length: 193
+2018-11-22 14:01:30.144 [DEBUG] org.apache.http.headers - << Connection: keep-alive
+2018-11-22 14:01:30.144 [DEBUG] com.yy.util.SSLClient - Connection can be kept alive indefinitely
+2018-11-22 14:01:30.148 [DEBUG] org.apache.http.wire -  << "<html>[\r][\n]"
+2018-11-22 14:01:30.148 [DEBUG] org.apache.http.wire -  << "<head><title>500 Internal Server Error</title></head>[\r][\n]"
+2018-11-22 14:01:30.148 [DEBUG] org.apache.http.wire -  << "<body bgcolor="white">[\r][\n]"
+2018-11-22 14:01:30.148 [DEBUG] org.apache.http.wire -  << "<center><h1>500 Internal Server Error</h1></center>[\r][\n]"
+2018-11-22 14:01:30.148 [DEBUG] org.apache.http.wire -  << "<hr><center>nginx/1.11.5</center>[\r][\n]"
+2018-11-22 14:01:30.148 [DEBUG] org.apache.http.wire -  << "</body>[\r][\n]"
+2018-11-22 14:01:30.148 [DEBUG] org.apache.http.wire -  << "</html>[\r][\n]"
+2018-11-22 14:01:30.148 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@5b38c1ec
+2018-11-22 14:01:30.148 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager - Connection can be kept alive indefinitely
+2018-11-22 14:01:30.148 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:1376<->39.107.192.176:80 closed
+2018-11-22 14:01:30.281 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {}->http://www.tuling123.com:80
+2018-11-22 14:01:30.281 [DEBUG] org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to www.tuling123.com:80
+2018-11-22 14:01:30.331 [DEBUG] org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+2018-11-22 14:01:30.331 [DEBUG] org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+2018-11-22 14:01:30.331 [DEBUG] org.apache.http.client.protocol.RequestTargetAuthentication - Target auth state: UNCHALLENGED
+2018-11-22 14:01:30.331 [DEBUG] org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+2018-11-22 14:01:30.331 [DEBUG] com.yy.util.SSLClient - Attempt 1 to execute request
+2018-11-22 14:01:30.331 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection - Sending request: POST /openapi/api/v2 HTTP/1.1
+2018-11-22 14:01:30.331 [DEBUG] org.apache.http.wire -  >> "POST /openapi/api/v2 HTTP/1.1[\r][\n]"
+2018-11-22 14:01:30.331 [DEBUG] org.apache.http.wire -  >> "Content-Type: application/json[\r][\n]"
+2018-11-22 14:01:30.331 [DEBUG] org.apache.http.wire -  >> "Content-Length: 14[\r][\n]"
+2018-11-22 14:01:30.331 [DEBUG] org.apache.http.wire -  >> "Content-Type: application/json[\r][\n]"
+2018-11-22 14:01:30.331 [DEBUG] org.apache.http.wire -  >> "Host: www.tuling123.com[\r][\n]"
+2018-11-22 14:01:30.331 [DEBUG] org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+2018-11-22 14:01:30.335 [DEBUG] org.apache.http.wire -  >> "User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_121)[\r][\n]"
+2018-11-22 14:01:30.335 [DEBUG] org.apache.http.wire -  >> "[\r][\n]"
+2018-11-22 14:01:30.335 [DEBUG] org.apache.http.headers - >> POST /openapi/api/v2 HTTP/1.1
+2018-11-22 14:01:30.335 [DEBUG] org.apache.http.headers - >> Content-Type: application/json
+2018-11-22 14:01:30.335 [DEBUG] org.apache.http.headers - >> Content-Length: 14
+2018-11-22 14:01:30.335 [DEBUG] org.apache.http.headers - >> Content-Type: application/json
+2018-11-22 14:01:30.335 [DEBUG] org.apache.http.headers - >> Host: www.tuling123.com
+2018-11-22 14:01:30.335 [DEBUG] org.apache.http.headers - >> Connection: Keep-Alive
+2018-11-22 14:01:30.335 [DEBUG] org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_121)
+2018-11-22 14:01:30.335 [DEBUG] org.apache.http.wire -  >> "{'key':'???3'}"
+2018-11-22 14:01:30.636 [DEBUG] org.apache.http.wire -  << "HTTP/1.1 500 Internal Server Error[\r][\n]"
+2018-11-22 14:01:30.636 [DEBUG] org.apache.http.wire -  << "Date: Thu, 22 Nov 2018 06:01:31 GMT[\r][\n]"
+2018-11-22 14:01:30.636 [DEBUG] org.apache.http.wire -  << "Content-Type: text/html; charset=UTF-8[\r][\n]"
+2018-11-22 14:01:30.636 [DEBUG] org.apache.http.wire -  << "Content-Length: 193[\r][\n]"
+2018-11-22 14:01:30.636 [DEBUG] org.apache.http.wire -  << "Connection: keep-alive[\r][\n]"
+2018-11-22 14:01:30.637 [DEBUG] org.apache.http.wire -  << "[\r][\n]"
+2018-11-22 14:01:30.637 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 500 Internal Server Error
+2018-11-22 14:01:30.637 [DEBUG] org.apache.http.headers - << HTTP/1.1 500 Internal Server Error
+2018-11-22 14:01:30.637 [DEBUG] org.apache.http.headers - << Date: Thu, 22 Nov 2018 06:01:31 GMT
+2018-11-22 14:01:30.637 [DEBUG] org.apache.http.headers - << Content-Type: text/html; charset=UTF-8
+2018-11-22 14:01:30.637 [DEBUG] org.apache.http.headers - << Content-Length: 193
+2018-11-22 14:01:30.638 [DEBUG] org.apache.http.headers - << Connection: keep-alive
+2018-11-22 14:01:30.638 [DEBUG] com.yy.util.SSLClient - Connection can be kept alive indefinitely
+2018-11-22 14:01:30.638 [DEBUG] org.apache.http.wire -  << "<html>[\r][\n]"
+2018-11-22 14:01:30.638 [DEBUG] org.apache.http.wire -  << "<head><title>500 Internal Server Error</title></head>[\r][\n]"
+2018-11-22 14:01:30.638 [DEBUG] org.apache.http.wire -  << "<body bgcolor="white">[\r][\n]"
+2018-11-22 14:01:30.639 [DEBUG] org.apache.http.wire -  << "<center><h1>500 Internal Server Error</h1></center>[\r][\n]"
+2018-11-22 14:01:30.639 [DEBUG] org.apache.http.wire -  << "<hr><center>nginx/1.11.5</center>[\r][\n]"
+2018-11-22 14:01:30.639 [DEBUG] org.apache.http.wire -  << "</body>[\r][\n]"
+2018-11-22 14:01:30.639 [DEBUG] org.apache.http.wire -  << "</html>[\r][\n]"
+2018-11-22 14:01:30.639 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@55cb6996
+2018-11-22 14:01:30.639 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager - Connection can be kept alive indefinitely
+2018-11-22 14:01:30.640 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:1377<->39.107.192.176:80 closed
+2018-11-22 14:01:30.650 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {}->http://www.tuling123.com:80
+2018-11-22 14:01:30.650 [DEBUG] org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to www.tuling123.com:80
+2018-11-22 14:01:30.700 [DEBUG] org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+2018-11-22 14:01:30.700 [DEBUG] org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+2018-11-22 14:01:30.700 [DEBUG] org.apache.http.client.protocol.RequestTargetAuthentication - Target auth state: UNCHALLENGED
+2018-11-22 14:01:30.701 [DEBUG] org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+2018-11-22 14:01:30.701 [DEBUG] com.yy.util.SSLClient - Attempt 1 to execute request
+2018-11-22 14:01:30.701 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection - Sending request: POST /openapi/api/v2 HTTP/1.1
+2018-11-22 14:01:30.702 [DEBUG] org.apache.http.wire -  >> "POST /openapi/api/v2 HTTP/1.1[\r][\n]"
+2018-11-22 14:01:30.702 [DEBUG] org.apache.http.wire -  >> "Content-Type: application/json[\r][\n]"
+2018-11-22 14:01:30.703 [DEBUG] org.apache.http.wire -  >> "Content-Length: 14[\r][\n]"
+2018-11-22 14:01:30.703 [DEBUG] org.apache.http.wire -  >> "Content-Type: application/json[\r][\n]"
+2018-11-22 14:01:30.703 [DEBUG] org.apache.http.wire -  >> "Host: www.tuling123.com[\r][\n]"
+2018-11-22 14:01:30.703 [DEBUG] org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+2018-11-22 14:01:30.704 [DEBUG] org.apache.http.wire -  >> "User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_121)[\r][\n]"
+2018-11-22 14:01:30.704 [DEBUG] org.apache.http.wire -  >> "[\r][\n]"
+2018-11-22 14:01:30.704 [DEBUG] org.apache.http.headers - >> POST /openapi/api/v2 HTTP/1.1
+2018-11-22 14:01:30.705 [DEBUG] org.apache.http.headers - >> Content-Type: application/json
+2018-11-22 14:01:30.705 [DEBUG] org.apache.http.headers - >> Content-Length: 14
+2018-11-22 14:01:30.705 [DEBUG] org.apache.http.headers - >> Content-Type: application/json
+2018-11-22 14:01:30.705 [DEBUG] org.apache.http.headers - >> Host: www.tuling123.com
+2018-11-22 14:01:30.705 [DEBUG] org.apache.http.headers - >> Connection: Keep-Alive
+2018-11-22 14:01:30.705 [DEBUG] org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_121)
+2018-11-22 14:01:30.705 [DEBUG] org.apache.http.wire -  >> "{'key':'???4'}"
+2018-11-22 14:01:30.759 [DEBUG] org.apache.http.wire -  << "HTTP/1.1 500 Internal Server Error[\r][\n]"
+2018-11-22 14:01:30.759 [DEBUG] org.apache.http.wire -  << "Date: Thu, 22 Nov 2018 06:01:31 GMT[\r][\n]"
+2018-11-22 14:01:30.759 [DEBUG] org.apache.http.wire -  << "Content-Type: text/html; charset=UTF-8[\r][\n]"
+2018-11-22 14:01:30.759 [DEBUG] org.apache.http.wire -  << "Content-Length: 193[\r][\n]"
+2018-11-22 14:01:30.759 [DEBUG] org.apache.http.wire -  << "Connection: keep-alive[\r][\n]"
+2018-11-22 14:01:30.759 [DEBUG] org.apache.http.wire -  << "[\r][\n]"
+2018-11-22 14:01:30.759 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 500 Internal Server Error
+2018-11-22 14:01:30.759 [DEBUG] org.apache.http.headers - << HTTP/1.1 500 Internal Server Error
+2018-11-22 14:01:30.759 [DEBUG] org.apache.http.headers - << Date: Thu, 22 Nov 2018 06:01:31 GMT
+2018-11-22 14:01:30.760 [DEBUG] org.apache.http.headers - << Content-Type: text/html; charset=UTF-8
+2018-11-22 14:01:30.760 [DEBUG] org.apache.http.headers - << Content-Length: 193
+2018-11-22 14:01:30.760 [DEBUG] org.apache.http.headers - << Connection: keep-alive
+2018-11-22 14:01:30.760 [DEBUG] com.yy.util.SSLClient - Connection can be kept alive indefinitely
+2018-11-22 14:01:30.760 [DEBUG] org.apache.http.wire -  << "<html>[\r][\n]"
+2018-11-22 14:01:30.760 [DEBUG] org.apache.http.wire -  << "<head><title>500 Internal Server Error</title></head>[\r][\n]"
+2018-11-22 14:01:30.760 [DEBUG] org.apache.http.wire -  << "<body bgcolor="white">[\r][\n]"
+2018-11-22 14:01:30.761 [DEBUG] org.apache.http.wire -  << "<center><h1>500 Internal Server Error</h1></center>[\r][\n]"
+2018-11-22 14:01:30.761 [DEBUG] org.apache.http.wire -  << "<hr><center>nginx/1.11.5</center>[\r][\n]"
+2018-11-22 14:01:30.761 [DEBUG] org.apache.http.wire -  << "</body>[\r][\n]"
+2018-11-22 14:01:30.761 [DEBUG] org.apache.http.wire -  << "</html>[\r][\n]"
+2018-11-22 14:01:30.761 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@194fad1
+2018-11-22 14:01:30.761 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager - Connection can be kept alive indefinitely
+2018-11-22 14:01:30.761 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:1378<->39.107.192.176:80 closed
+2018-11-22 14:01:30.772 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {}->http://www.tuling123.com:80
+2018-11-22 14:01:30.773 [DEBUG] org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to www.tuling123.com:80
+2018-11-22 14:01:30.828 [DEBUG] org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+2018-11-22 14:01:30.829 [DEBUG] org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+2018-11-22 14:01:30.829 [DEBUG] org.apache.http.client.protocol.RequestTargetAuthentication - Target auth state: UNCHALLENGED
+2018-11-22 14:01:30.830 [DEBUG] org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+2018-11-22 14:01:30.830 [DEBUG] com.yy.util.SSLClient - Attempt 1 to execute request
+2018-11-22 14:01:30.830 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection - Sending request: POST /openapi/api/v2 HTTP/1.1
+2018-11-22 14:01:30.831 [DEBUG] org.apache.http.wire -  >> "POST /openapi/api/v2 HTTP/1.1[\r][\n]"
+2018-11-22 14:01:30.831 [DEBUG] org.apache.http.wire -  >> "Content-Type: application/json[\r][\n]"
+2018-11-22 14:01:30.831 [DEBUG] org.apache.http.wire -  >> "Content-Length: 14[\r][\n]"
+2018-11-22 14:01:30.832 [DEBUG] org.apache.http.wire -  >> "Content-Type: application/json[\r][\n]"
+2018-11-22 14:01:30.832 [DEBUG] org.apache.http.wire -  >> "Host: www.tuling123.com[\r][\n]"
+2018-11-22 14:01:30.832 [DEBUG] org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+2018-11-22 14:01:30.833 [DEBUG] org.apache.http.wire -  >> "User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_121)[\r][\n]"
+2018-11-22 14:01:30.833 [DEBUG] org.apache.http.wire -  >> "[\r][\n]"
+2018-11-22 14:01:30.833 [DEBUG] org.apache.http.headers - >> POST /openapi/api/v2 HTTP/1.1
+2018-11-22 14:01:30.834 [DEBUG] org.apache.http.headers - >> Content-Type: application/json
+2018-11-22 14:01:30.834 [DEBUG] org.apache.http.headers - >> Content-Length: 14
+2018-11-22 14:01:30.834 [DEBUG] org.apache.http.headers - >> Content-Type: application/json
+2018-11-22 14:01:30.835 [DEBUG] org.apache.http.headers - >> Host: www.tuling123.com
+2018-11-22 14:01:30.835 [DEBUG] org.apache.http.headers - >> Connection: Keep-Alive
+2018-11-22 14:01:30.835 [DEBUG] org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_121)
+2018-11-22 14:01:30.835 [DEBUG] org.apache.http.wire -  >> "{'key':'???5'}"
+2018-11-22 14:01:30.886 [DEBUG] org.apache.http.wire -  << "HTTP/1.1 500 Internal Server Error[\r][\n]"
+2018-11-22 14:01:30.886 [DEBUG] org.apache.http.wire -  << "Date: Thu, 22 Nov 2018 06:01:31 GMT[\r][\n]"
+2018-11-22 14:01:30.886 [DEBUG] org.apache.http.wire -  << "Content-Type: text/html; charset=UTF-8[\r][\n]"
+2018-11-22 14:01:30.886 [DEBUG] org.apache.http.wire -  << "Content-Length: 193[\r][\n]"
+2018-11-22 14:01:30.886 [DEBUG] org.apache.http.wire -  << "Connection: keep-alive[\r][\n]"
+2018-11-22 14:01:30.886 [DEBUG] org.apache.http.wire -  << "[\r][\n]"
+2018-11-22 14:01:30.886 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 500 Internal Server Error
+2018-11-22 14:01:30.886 [DEBUG] org.apache.http.headers - << HTTP/1.1 500 Internal Server Error
+2018-11-22 14:01:30.886 [DEBUG] org.apache.http.headers - << Date: Thu, 22 Nov 2018 06:01:31 GMT
+2018-11-22 14:01:30.886 [DEBUG] org.apache.http.headers - << Content-Type: text/html; charset=UTF-8
+2018-11-22 14:01:30.886 [DEBUG] org.apache.http.headers - << Content-Length: 193
+2018-11-22 14:01:30.886 [DEBUG] org.apache.http.headers - << Connection: keep-alive
+2018-11-22 14:01:30.886 [DEBUG] com.yy.util.SSLClient - Connection can be kept alive indefinitely
+2018-11-22 14:01:30.886 [DEBUG] org.apache.http.wire -  << "<html>[\r][\n]"
+2018-11-22 14:01:30.886 [DEBUG] org.apache.http.wire -  << "<head><title>500 Internal Server Error</title></head>[\r][\n]"
+2018-11-22 14:01:30.886 [DEBUG] org.apache.http.wire -  << "<body bgcolor="white">[\r][\n]"
+2018-11-22 14:01:30.886 [DEBUG] org.apache.http.wire -  << "<center><h1>500 Internal Server Error</h1></center>[\r][\n]"
+2018-11-22 14:01:30.890 [DEBUG] org.apache.http.wire -  << "<hr><center>nginx/1.11.5</center>[\r][\n]"
+2018-11-22 14:01:30.890 [DEBUG] org.apache.http.wire -  << "</body>[\r][\n]"
+2018-11-22 14:01:30.890 [DEBUG] org.apache.http.wire -  << "</html>[\r][\n]"
+2018-11-22 14:01:30.890 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@431cd9b2
+2018-11-22 14:01:30.890 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager - Connection can be kept alive indefinitely
+2018-11-22 14:01:30.890 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:1379<->39.107.192.176:80 closed
+2018-11-22 14:01:30.902 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {}->http://www.tuling123.com:80
+2018-11-22 14:01:30.902 [DEBUG] org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to www.tuling123.com:80
+2018-11-22 14:01:31.078 [DEBUG] org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+2018-11-22 14:01:31.078 [DEBUG] org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+2018-11-22 14:01:31.078 [DEBUG] org.apache.http.client.protocol.RequestTargetAuthentication - Target auth state: UNCHALLENGED
+2018-11-22 14:01:31.078 [DEBUG] org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+2018-11-22 14:01:31.078 [DEBUG] com.yy.util.SSLClient - Attempt 1 to execute request
+2018-11-22 14:01:31.078 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection - Sending request: POST /openapi/api/v2 HTTP/1.1
+2018-11-22 14:01:31.078 [DEBUG] org.apache.http.wire -  >> "POST /openapi/api/v2 HTTP/1.1[\r][\n]"
+2018-11-22 14:01:31.078 [DEBUG] org.apache.http.wire -  >> "Content-Type: application/json[\r][\n]"
+2018-11-22 14:01:31.078 [DEBUG] org.apache.http.wire -  >> "Content-Length: 14[\r][\n]"
+2018-11-22 14:01:31.078 [DEBUG] org.apache.http.wire -  >> "Content-Type: application/json[\r][\n]"
+2018-11-22 14:01:31.078 [DEBUG] org.apache.http.wire -  >> "Host: www.tuling123.com[\r][\n]"
+2018-11-22 14:01:31.078 [DEBUG] org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+2018-11-22 14:01:31.078 [DEBUG] org.apache.http.wire -  >> "User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_121)[\r][\n]"
+2018-11-22 14:01:31.078 [DEBUG] org.apache.http.wire -  >> "[\r][\n]"
+2018-11-22 14:01:31.078 [DEBUG] org.apache.http.headers - >> POST /openapi/api/v2 HTTP/1.1
+2018-11-22 14:01:31.078 [DEBUG] org.apache.http.headers - >> Content-Type: application/json
+2018-11-22 14:01:31.078 [DEBUG] org.apache.http.headers - >> Content-Length: 14
+2018-11-22 14:01:31.078 [DEBUG] org.apache.http.headers - >> Content-Type: application/json
+2018-11-22 14:01:31.078 [DEBUG] org.apache.http.headers - >> Host: www.tuling123.com
+2018-11-22 14:01:31.082 [DEBUG] org.apache.http.headers - >> Connection: Keep-Alive
+2018-11-22 14:01:31.082 [DEBUG] org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_121)
+2018-11-22 14:01:31.082 [DEBUG] org.apache.http.wire -  >> "{'key':'???6'}"
+2018-11-22 14:01:31.133 [DEBUG] org.apache.http.wire -  << "HTTP/1.1 500 Internal Server Error[\r][\n]"
+2018-11-22 14:01:31.133 [DEBUG] org.apache.http.wire -  << "Date: Thu, 22 Nov 2018 06:01:31 GMT[\r][\n]"
+2018-11-22 14:01:31.133 [DEBUG] org.apache.http.wire -  << "Content-Type: text/html; charset=UTF-8[\r][\n]"
+2018-11-22 14:01:31.133 [DEBUG] org.apache.http.wire -  << "Content-Length: 193[\r][\n]"
+2018-11-22 14:01:31.133 [DEBUG] org.apache.http.wire -  << "Connection: keep-alive[\r][\n]"
+2018-11-22 14:01:31.133 [DEBUG] org.apache.http.wire -  << "[\r][\n]"
+2018-11-22 14:01:31.133 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 500 Internal Server Error
+2018-11-22 14:01:31.133 [DEBUG] org.apache.http.headers - << HTTP/1.1 500 Internal Server Error
+2018-11-22 14:01:31.133 [DEBUG] org.apache.http.headers - << Date: Thu, 22 Nov 2018 06:01:31 GMT
+2018-11-22 14:01:31.133 [DEBUG] org.apache.http.headers - << Content-Type: text/html; charset=UTF-8
+2018-11-22 14:01:31.133 [DEBUG] org.apache.http.headers - << Content-Length: 193
+2018-11-22 14:01:31.133 [DEBUG] org.apache.http.headers - << Connection: keep-alive
+2018-11-22 14:01:31.133 [DEBUG] com.yy.util.SSLClient - Connection can be kept alive indefinitely
+2018-11-22 14:01:31.133 [DEBUG] org.apache.http.wire -  << "<html>[\r][\n]"
+2018-11-22 14:01:31.133 [DEBUG] org.apache.http.wire -  << "<head><title>500 Internal Server Error</title></head>[\r][\n]"
+2018-11-22 14:01:31.133 [DEBUG] org.apache.http.wire -  << "<body bgcolor="white">[\r][\n]"
+2018-11-22 14:01:31.133 [DEBUG] org.apache.http.wire -  << "<center><h1>500 Internal Server Error</h1></center>[\r][\n]"
+2018-11-22 14:01:31.133 [DEBUG] org.apache.http.wire -  << "<hr><center>nginx/1.11.5</center>[\r][\n]"
+2018-11-22 14:01:31.133 [DEBUG] org.apache.http.wire -  << "</body>[\r][\n]"
+2018-11-22 14:01:31.133 [DEBUG] org.apache.http.wire -  << "</html>[\r][\n]"
+2018-11-22 14:01:31.133 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@5c7933ad
+2018-11-22 14:01:31.133 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager - Connection can be kept alive indefinitely
+2018-11-22 14:01:31.133 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:1380<->39.107.192.176:80 closed
+2018-11-22 14:01:31.145 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {}->http://www.tuling123.com:80
+2018-11-22 14:01:31.145 [DEBUG] org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to www.tuling123.com:80
+2018-11-22 14:01:31.196 [DEBUG] org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+2018-11-22 14:01:31.196 [DEBUG] org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+2018-11-22 14:01:31.196 [DEBUG] org.apache.http.client.protocol.RequestTargetAuthentication - Target auth state: UNCHALLENGED
+2018-11-22 14:01:31.196 [DEBUG] org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+2018-11-22 14:01:31.196 [DEBUG] com.yy.util.SSLClient - Attempt 1 to execute request
+2018-11-22 14:01:31.196 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection - Sending request: POST /openapi/api/v2 HTTP/1.1
+2018-11-22 14:01:31.196 [DEBUG] org.apache.http.wire -  >> "POST /openapi/api/v2 HTTP/1.1[\r][\n]"
+2018-11-22 14:01:31.196 [DEBUG] org.apache.http.wire -  >> "Content-Type: application/json[\r][\n]"
+2018-11-22 14:01:31.196 [DEBUG] org.apache.http.wire -  >> "Content-Length: 14[\r][\n]"
+2018-11-22 14:01:31.196 [DEBUG] org.apache.http.wire -  >> "Content-Type: application/json[\r][\n]"
+2018-11-22 14:01:31.196 [DEBUG] org.apache.http.wire -  >> "Host: www.tuling123.com[\r][\n]"
+2018-11-22 14:01:31.196 [DEBUG] org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+2018-11-22 14:01:31.196 [DEBUG] org.apache.http.wire -  >> "User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_121)[\r][\n]"
+2018-11-22 14:01:31.196 [DEBUG] org.apache.http.wire -  >> "[\r][\n]"
+2018-11-22 14:01:31.196 [DEBUG] org.apache.http.headers - >> POST /openapi/api/v2 HTTP/1.1
+2018-11-22 14:01:31.196 [DEBUG] org.apache.http.headers - >> Content-Type: application/json
+2018-11-22 14:01:31.196 [DEBUG] org.apache.http.headers - >> Content-Length: 14
+2018-11-22 14:01:31.196 [DEBUG] org.apache.http.headers - >> Content-Type: application/json
+2018-11-22 14:01:31.196 [DEBUG] org.apache.http.headers - >> Host: www.tuling123.com
+2018-11-22 14:01:31.196 [DEBUG] org.apache.http.headers - >> Connection: Keep-Alive
+2018-11-22 14:01:31.196 [DEBUG] org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_121)
+2018-11-22 14:01:31.196 [DEBUG] org.apache.http.wire -  >> "{'key':'???7'}"
+2018-11-22 14:01:31.251 [DEBUG] org.apache.http.wire -  << "HTTP/1.1 500 Internal Server Error[\r][\n]"
+2018-11-22 14:01:31.251 [DEBUG] org.apache.http.wire -  << "Date: Thu, 22 Nov 2018 06:01:32 GMT[\r][\n]"
+2018-11-22 14:01:31.251 [DEBUG] org.apache.http.wire -  << "Content-Type: text/html; charset=UTF-8[\r][\n]"
+2018-11-22 14:01:31.251 [DEBUG] org.apache.http.wire -  << "Content-Length: 193[\r][\n]"
+2018-11-22 14:01:31.251 [DEBUG] org.apache.http.wire -  << "Connection: keep-alive[\r][\n]"
+2018-11-22 14:01:31.251 [DEBUG] org.apache.http.wire -  << "[\r][\n]"
+2018-11-22 14:01:31.251 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 500 Internal Server Error
+2018-11-22 14:01:31.255 [DEBUG] org.apache.http.headers - << HTTP/1.1 500 Internal Server Error
+2018-11-22 14:01:31.255 [DEBUG] org.apache.http.headers - << Date: Thu, 22 Nov 2018 06:01:32 GMT
+2018-11-22 14:01:31.255 [DEBUG] org.apache.http.headers - << Content-Type: text/html; charset=UTF-8
+2018-11-22 14:01:31.255 [DEBUG] org.apache.http.headers - << Content-Length: 193
+2018-11-22 14:01:31.255 [DEBUG] org.apache.http.headers - << Connection: keep-alive
+2018-11-22 14:01:31.275 [DEBUG] com.yy.util.SSLClient - Connection can be kept alive indefinitely
+2018-11-22 14:01:31.275 [DEBUG] org.apache.http.wire -  << "<html>[\r][\n]"
+2018-11-22 14:01:31.276 [DEBUG] org.apache.http.wire -  << "<head><title>500 Internal Server Error</title></head>[\r][\n]"
+2018-11-22 14:01:31.276 [DEBUG] org.apache.http.wire -  << "<body bgcolor="white">[\r][\n]"
+2018-11-22 14:01:31.276 [DEBUG] org.apache.http.wire -  << "<center><h1>500 Internal Server Error</h1></center>[\r][\n]"
+2018-11-22 14:01:31.276 [DEBUG] org.apache.http.wire -  << "<hr><center>nginx/1.11.5</center>[\r][\n]"
+2018-11-22 14:01:31.276 [DEBUG] org.apache.http.wire -  << "</body>[\r][\n]"
+2018-11-22 14:01:31.276 [DEBUG] org.apache.http.wire -  << "</html>[\r][\n]"
+2018-11-22 14:01:31.277 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@d554c5f
+2018-11-22 14:01:31.277 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager - Connection can be kept alive indefinitely
+2018-11-22 14:01:31.278 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:1381<->39.107.192.176:80 closed
+2018-11-22 14:01:31.298 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {}->http://www.tuling123.com:80
+2018-11-22 14:01:31.302 [DEBUG] org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to www.tuling123.com:80
+2018-11-22 14:01:31.345 [DEBUG] org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+2018-11-22 14:01:31.345 [DEBUG] org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+2018-11-22 14:01:31.345 [DEBUG] org.apache.http.client.protocol.RequestTargetAuthentication - Target auth state: UNCHALLENGED
+2018-11-22 14:01:31.345 [DEBUG] org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+2018-11-22 14:01:31.345 [DEBUG] com.yy.util.SSLClient - Attempt 1 to execute request
+2018-11-22 14:01:31.345 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection - Sending request: POST /openapi/api/v2 HTTP/1.1
+2018-11-22 14:01:31.345 [DEBUG] org.apache.http.wire -  >> "POST /openapi/api/v2 HTTP/1.1[\r][\n]"
+2018-11-22 14:01:31.345 [DEBUG] org.apache.http.wire -  >> "Content-Type: application/json[\r][\n]"
+2018-11-22 14:01:31.345 [DEBUG] org.apache.http.wire -  >> "Content-Length: 14[\r][\n]"
+2018-11-22 14:01:31.345 [DEBUG] org.apache.http.wire -  >> "Content-Type: application/json[\r][\n]"
+2018-11-22 14:01:31.348 [DEBUG] org.apache.http.wire -  >> "Host: www.tuling123.com[\r][\n]"
+2018-11-22 14:01:31.348 [DEBUG] org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+2018-11-22 14:01:31.348 [DEBUG] org.apache.http.wire -  >> "User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_121)[\r][\n]"
+2018-11-22 14:01:31.348 [DEBUG] org.apache.http.wire -  >> "[\r][\n]"
+2018-11-22 14:01:31.348 [DEBUG] org.apache.http.headers - >> POST /openapi/api/v2 HTTP/1.1
+2018-11-22 14:01:31.348 [DEBUG] org.apache.http.headers - >> Content-Type: application/json
+2018-11-22 14:01:31.348 [DEBUG] org.apache.http.headers - >> Content-Length: 14
+2018-11-22 14:01:31.348 [DEBUG] org.apache.http.headers - >> Content-Type: application/json
+2018-11-22 14:01:31.348 [DEBUG] org.apache.http.headers - >> Host: www.tuling123.com
+2018-11-22 14:01:31.348 [DEBUG] org.apache.http.headers - >> Connection: Keep-Alive
+2018-11-22 14:01:31.348 [DEBUG] org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_121)
+2018-11-22 14:01:31.348 [DEBUG] org.apache.http.wire -  >> "{'key':'???8'}"
+2018-11-22 14:01:31.399 [DEBUG] org.apache.http.wire -  << "HTTP/1.1 500 Internal Server Error[\r][\n]"
+2018-11-22 14:01:31.399 [DEBUG] org.apache.http.wire -  << "Date: Thu, 22 Nov 2018 06:01:32 GMT[\r][\n]"
+2018-11-22 14:01:31.399 [DEBUG] org.apache.http.wire -  << "Content-Type: text/html; charset=UTF-8[\r][\n]"
+2018-11-22 14:01:31.399 [DEBUG] org.apache.http.wire -  << "Content-Length: 193[\r][\n]"
+2018-11-22 14:01:31.399 [DEBUG] org.apache.http.wire -  << "Connection: keep-alive[\r][\n]"
+2018-11-22 14:01:31.399 [DEBUG] org.apache.http.wire -  << "[\r][\n]"
+2018-11-22 14:01:31.399 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 500 Internal Server Error
+2018-11-22 14:01:31.399 [DEBUG] org.apache.http.headers - << HTTP/1.1 500 Internal Server Error
+2018-11-22 14:01:31.399 [DEBUG] org.apache.http.headers - << Date: Thu, 22 Nov 2018 06:01:32 GMT
+2018-11-22 14:01:31.399 [DEBUG] org.apache.http.headers - << Content-Type: text/html; charset=UTF-8
+2018-11-22 14:01:31.399 [DEBUG] org.apache.http.headers - << Content-Length: 193
+2018-11-22 14:01:31.399 [DEBUG] org.apache.http.headers - << Connection: keep-alive
+2018-11-22 14:01:31.399 [DEBUG] com.yy.util.SSLClient - Connection can be kept alive indefinitely
+2018-11-22 14:01:31.399 [DEBUG] org.apache.http.wire -  << "<html>[\r][\n]"
+2018-11-22 14:01:31.399 [DEBUG] org.apache.http.wire -  << "<head><title>500 Internal Server Error</title></head>[\r][\n]"
+2018-11-22 14:01:31.399 [DEBUG] org.apache.http.wire -  << "<body bgcolor="white">[\r][\n]"
+2018-11-22 14:01:31.399 [DEBUG] org.apache.http.wire -  << "<center><h1>500 Internal Server Error</h1></center>[\r][\n]"
+2018-11-22 14:01:31.399 [DEBUG] org.apache.http.wire -  << "<hr><center>nginx/1.11.5</center>[\r][\n]"
+2018-11-22 14:01:31.399 [DEBUG] org.apache.http.wire -  << "</body>[\r][\n]"
+2018-11-22 14:01:31.399 [DEBUG] org.apache.http.wire -  << "</html>[\r][\n]"
+2018-11-22 14:01:31.399 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@6e2829c7
+2018-11-22 14:01:31.399 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager - Connection can be kept alive indefinitely
+2018-11-22 14:01:31.399 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:1383<->39.107.192.176:80 closed
+2018-11-22 14:01:31.407 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {}->http://www.tuling123.com:80
+2018-11-22 14:01:31.411 [DEBUG] org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to www.tuling123.com:80
+2018-11-22 14:01:31.462 [DEBUG] org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+2018-11-22 14:01:31.462 [DEBUG] org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+2018-11-22 14:01:31.462 [DEBUG] org.apache.http.client.protocol.RequestTargetAuthentication - Target auth state: UNCHALLENGED
+2018-11-22 14:01:31.462 [DEBUG] org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+2018-11-22 14:01:31.462 [DEBUG] com.yy.util.SSLClient - Attempt 1 to execute request
+2018-11-22 14:01:31.462 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection - Sending request: POST /openapi/api/v2 HTTP/1.1
+2018-11-22 14:01:31.463 [DEBUG] org.apache.http.wire -  >> "POST /openapi/api/v2 HTTP/1.1[\r][\n]"
+2018-11-22 14:01:31.463 [DEBUG] org.apache.http.wire -  >> "Content-Type: application/json[\r][\n]"
+2018-11-22 14:01:31.463 [DEBUG] org.apache.http.wire -  >> "Content-Length: 14[\r][\n]"
+2018-11-22 14:01:31.463 [DEBUG] org.apache.http.wire -  >> "Content-Type: application/json[\r][\n]"
+2018-11-22 14:01:31.463 [DEBUG] org.apache.http.wire -  >> "Host: www.tuling123.com[\r][\n]"
+2018-11-22 14:01:31.463 [DEBUG] org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+2018-11-22 14:01:31.463 [DEBUG] org.apache.http.wire -  >> "User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_121)[\r][\n]"
+2018-11-22 14:01:31.463 [DEBUG] org.apache.http.wire -  >> "[\r][\n]"
+2018-11-22 14:01:31.463 [DEBUG] org.apache.http.headers - >> POST /openapi/api/v2 HTTP/1.1
+2018-11-22 14:01:31.463 [DEBUG] org.apache.http.headers - >> Content-Type: application/json
+2018-11-22 14:01:31.463 [DEBUG] org.apache.http.headers - >> Content-Length: 14
+2018-11-22 14:01:31.463 [DEBUG] org.apache.http.headers - >> Content-Type: application/json
+2018-11-22 14:01:31.463 [DEBUG] org.apache.http.headers - >> Host: www.tuling123.com
+2018-11-22 14:01:31.463 [DEBUG] org.apache.http.headers - >> Connection: Keep-Alive
+2018-11-22 14:01:31.464 [DEBUG] org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_121)
+2018-11-22 14:01:31.464 [DEBUG] org.apache.http.wire -  >> "{'key':'???9'}"
+2018-11-22 14:01:31.513 [DEBUG] org.apache.http.wire -  << "HTTP/1.1 500 Internal Server Error[\r][\n]"
+2018-11-22 14:01:31.517 [DEBUG] org.apache.http.wire -  << "Date: Thu, 22 Nov 2018 06:01:32 GMT[\r][\n]"
+2018-11-22 14:01:31.517 [DEBUG] org.apache.http.wire -  << "Content-Type: text/html; charset=UTF-8[\r][\n]"
+2018-11-22 14:01:31.517 [DEBUG] org.apache.http.wire -  << "Content-Length: 193[\r][\n]"
+2018-11-22 14:01:31.517 [DEBUG] org.apache.http.wire -  << "Connection: keep-alive[\r][\n]"
+2018-11-22 14:01:31.517 [DEBUG] org.apache.http.wire -  << "[\r][\n]"
+2018-11-22 14:01:31.517 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 500 Internal Server Error
+2018-11-22 14:01:31.517 [DEBUG] org.apache.http.headers - << HTTP/1.1 500 Internal Server Error
+2018-11-22 14:01:31.517 [DEBUG] org.apache.http.headers - << Date: Thu, 22 Nov 2018 06:01:32 GMT
+2018-11-22 14:01:31.517 [DEBUG] org.apache.http.headers - << Content-Type: text/html; charset=UTF-8
+2018-11-22 14:01:31.517 [DEBUG] org.apache.http.headers - << Content-Length: 193
+2018-11-22 14:01:31.517 [DEBUG] org.apache.http.headers - << Connection: keep-alive
+2018-11-22 14:01:31.517 [DEBUG] com.yy.util.SSLClient - Connection can be kept alive indefinitely
+2018-11-22 14:01:31.517 [DEBUG] org.apache.http.wire -  << "<html>[\r][\n]"
+2018-11-22 14:01:31.521 [DEBUG] org.apache.http.wire -  << "<head><title>500 Internal Server Error</title></head>[\r][\n]"
+2018-11-22 14:01:31.521 [DEBUG] org.apache.http.wire -  << "<body bgcolor="white">[\r][\n]"
+2018-11-22 14:01:31.521 [DEBUG] org.apache.http.wire -  << "<center><h1>500 Internal Server Error</h1></center>[\r][\n]"
+2018-11-22 14:01:31.521 [DEBUG] org.apache.http.wire -  << "<hr><center>nginx/1.11.5</center>[\r][\n]"
+2018-11-22 14:01:31.521 [DEBUG] org.apache.http.wire -  << "</body>[\r][\n]"
+2018-11-22 14:01:31.521 [DEBUG] org.apache.http.wire -  << "</html>[\r][\n]"
+2018-11-22 14:01:31.521 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@333d4a8c
+2018-11-22 14:01:31.521 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager - Connection can be kept alive indefinitely
+2018-11-22 14:01:31.521 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:1384<->39.107.192.176:80 closed
+2018-11-22 14:01:31.544 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {}->http://www.tuling123.com:80
+2018-11-22 14:01:31.544 [DEBUG] org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to www.tuling123.com:80
+2018-11-22 14:01:31.595 [DEBUG] org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+2018-11-22 14:01:31.595 [DEBUG] org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+2018-11-22 14:01:31.595 [DEBUG] org.apache.http.client.protocol.RequestTargetAuthentication - Target auth state: UNCHALLENGED
+2018-11-22 14:01:31.595 [DEBUG] org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+2018-11-22 14:01:31.595 [DEBUG] com.yy.util.SSLClient - Attempt 1 to execute request
+2018-11-22 14:01:31.595 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection - Sending request: POST /openapi/api/v2 HTTP/1.1
+2018-11-22 14:01:31.595 [DEBUG] org.apache.http.wire -  >> "POST /openapi/api/v2 HTTP/1.1[\r][\n]"
+2018-11-22 14:01:31.595 [DEBUG] org.apache.http.wire -  >> "Content-Type: application/json[\r][\n]"
+2018-11-22 14:01:31.595 [DEBUG] org.apache.http.wire -  >> "Content-Length: 15[\r][\n]"
+2018-11-22 14:01:31.595 [DEBUG] org.apache.http.wire -  >> "Content-Type: application/json[\r][\n]"
+2018-11-22 14:01:31.595 [DEBUG] org.apache.http.wire -  >> "Host: www.tuling123.com[\r][\n]"
+2018-11-22 14:01:31.595 [DEBUG] org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+2018-11-22 14:01:31.595 [DEBUG] org.apache.http.wire -  >> "User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_121)[\r][\n]"
+2018-11-22 14:01:31.595 [DEBUG] org.apache.http.wire -  >> "[\r][\n]"
+2018-11-22 14:01:31.595 [DEBUG] org.apache.http.headers - >> POST /openapi/api/v2 HTTP/1.1
+2018-11-22 14:01:31.595 [DEBUG] org.apache.http.headers - >> Content-Type: application/json
+2018-11-22 14:01:31.595 [DEBUG] org.apache.http.headers - >> Content-Length: 15
+2018-11-22 14:01:31.595 [DEBUG] org.apache.http.headers - >> Content-Type: application/json
+2018-11-22 14:01:31.595 [DEBUG] org.apache.http.headers - >> Host: www.tuling123.com
+2018-11-22 14:01:31.595 [DEBUG] org.apache.http.headers - >> Connection: Keep-Alive
+2018-11-22 14:01:31.595 [DEBUG] org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_121)
+2018-11-22 14:01:31.595 [DEBUG] org.apache.http.wire -  >> "{'key':'???10'}"
+2018-11-22 14:01:31.646 [DEBUG] org.apache.http.wire -  << "HTTP/1.1 500 Internal Server Error[\r][\n]"
+2018-11-22 14:01:31.646 [DEBUG] org.apache.http.wire -  << "Date: Thu, 22 Nov 2018 06:01:32 GMT[\r][\n]"
+2018-11-22 14:01:31.646 [DEBUG] org.apache.http.wire -  << "Content-Type: text/html; charset=UTF-8[\r][\n]"
+2018-11-22 14:01:31.646 [DEBUG] org.apache.http.wire -  << "Content-Length: 193[\r][\n]"
+2018-11-22 14:01:31.649 [DEBUG] org.apache.http.wire -  << "Connection: keep-alive[\r][\n]"
+2018-11-22 14:01:31.649 [DEBUG] org.apache.http.wire -  << "[\r][\n]"
+2018-11-22 14:01:31.649 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 500 Internal Server Error
+2018-11-22 14:01:31.649 [DEBUG] org.apache.http.headers - << HTTP/1.1 500 Internal Server Error
+2018-11-22 14:01:31.649 [DEBUG] org.apache.http.headers - << Date: Thu, 22 Nov 2018 06:01:32 GMT
+2018-11-22 14:01:31.649 [DEBUG] org.apache.http.headers - << Content-Type: text/html; charset=UTF-8
+2018-11-22 14:01:31.649 [DEBUG] org.apache.http.headers - << Content-Length: 193
+2018-11-22 14:01:31.649 [DEBUG] org.apache.http.headers - << Connection: keep-alive
+2018-11-22 14:01:31.649 [DEBUG] com.yy.util.SSLClient - Connection can be kept alive indefinitely
+2018-11-22 14:01:31.649 [DEBUG] org.apache.http.wire -  << "<html>[\r][\n]"
+2018-11-22 14:01:31.649 [DEBUG] org.apache.http.wire -  << "<head><title>500 Internal Server Error</title></head>[\r][\n]"
+2018-11-22 14:01:31.649 [DEBUG] org.apache.http.wire -  << "<body bgcolor="white">[\r][\n]"
+2018-11-22 14:01:31.649 [DEBUG] org.apache.http.wire -  << "<center><h1>500 Internal Server Error</h1></center>[\r][\n]"
+2018-11-22 14:01:31.649 [DEBUG] org.apache.http.wire -  << "<hr><center>nginx/1.11.5</center>[\r][\n]"
+2018-11-22 14:01:31.649 [DEBUG] org.apache.http.wire -  << "</body>[\r][\n]"
+2018-11-22 14:01:31.649 [DEBUG] org.apache.http.wire -  << "</html>[\r][\n]"
+2018-11-22 14:01:31.649 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@69c81773
+2018-11-22 14:01:31.649 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager - Connection can be kept alive indefinitely
+2018-11-22 14:01:31.649 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:1385<->39.107.192.176:80 closed
+2018-11-22 14:01:31.661 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {}->http://www.tuling123.com:80
+2018-11-22 14:01:31.661 [DEBUG] org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to www.tuling123.com:80
+2018-11-22 14:01:31.744 [DEBUG] org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+2018-11-22 14:01:31.745 [DEBUG] org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+2018-11-22 14:01:31.745 [DEBUG] org.apache.http.client.protocol.RequestTargetAuthentication - Target auth state: UNCHALLENGED
+2018-11-22 14:01:31.745 [DEBUG] org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+2018-11-22 14:01:31.745 [DEBUG] com.yy.util.SSLClient - Attempt 1 to execute request
+2018-11-22 14:01:31.745 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection - Sending request: POST /openapi/api/v2 HTTP/1.1
+2018-11-22 14:01:31.746 [DEBUG] org.apache.http.wire -  >> "POST /openapi/api/v2 HTTP/1.1[\r][\n]"
+2018-11-22 14:01:31.746 [DEBUG] org.apache.http.wire -  >> "Content-Type: application/json[\r][\n]"
+2018-11-22 14:01:31.746 [DEBUG] org.apache.http.wire -  >> "Content-Length: 15[\r][\n]"
+2018-11-22 14:01:31.746 [DEBUG] org.apache.http.wire -  >> "Content-Type: application/json[\r][\n]"
+2018-11-22 14:01:31.747 [DEBUG] org.apache.http.wire -  >> "Host: www.tuling123.com[\r][\n]"
+2018-11-22 14:01:31.747 [DEBUG] org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+2018-11-22 14:01:31.747 [DEBUG] org.apache.http.wire -  >> "User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_121)[\r][\n]"
+2018-11-22 14:01:31.747 [DEBUG] org.apache.http.wire -  >> "[\r][\n]"
+2018-11-22 14:01:31.747 [DEBUG] org.apache.http.headers - >> POST /openapi/api/v2 HTTP/1.1
+2018-11-22 14:01:31.747 [DEBUG] org.apache.http.headers - >> Content-Type: application/json
+2018-11-22 14:01:31.747 [DEBUG] org.apache.http.headers - >> Content-Length: 15
+2018-11-22 14:01:31.748 [DEBUG] org.apache.http.headers - >> Content-Type: application/json
+2018-11-22 14:01:31.748 [DEBUG] org.apache.http.headers - >> Host: www.tuling123.com
+2018-11-22 14:01:31.748 [DEBUG] org.apache.http.headers - >> Connection: Keep-Alive
+2018-11-22 14:01:31.748 [DEBUG] org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_121)
+2018-11-22 14:01:31.749 [DEBUG] org.apache.http.wire -  >> "{'key':'???11'}"
+2018-11-22 14:01:31.795 [DEBUG] org.apache.http.wire -  << "HTTP/1.1 500 Internal Server Error[\r][\n]"
+2018-11-22 14:01:31.799 [DEBUG] org.apache.http.wire -  << "Date: Thu, 22 Nov 2018 06:01:32 GMT[\r][\n]"
+2018-11-22 14:01:31.799 [DEBUG] org.apache.http.wire -  << "Content-Type: text/html; charset=UTF-8[\r][\n]"
+2018-11-22 14:01:31.799 [DEBUG] org.apache.http.wire -  << "Content-Length: 193[\r][\n]"
+2018-11-22 14:01:31.799 [DEBUG] org.apache.http.wire -  << "Connection: keep-alive[\r][\n]"
+2018-11-22 14:01:31.799 [DEBUG] org.apache.http.wire -  << "[\r][\n]"
+2018-11-22 14:01:31.799 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 500 Internal Server Error
+2018-11-22 14:01:31.799 [DEBUG] org.apache.http.headers - << HTTP/1.1 500 Internal Server Error
+2018-11-22 14:01:31.799 [DEBUG] org.apache.http.headers - << Date: Thu, 22 Nov 2018 06:01:32 GMT
+2018-11-22 14:01:31.799 [DEBUG] org.apache.http.headers - << Content-Type: text/html; charset=UTF-8
+2018-11-22 14:01:31.799 [DEBUG] org.apache.http.headers - << Content-Length: 193
+2018-11-22 14:01:31.799 [DEBUG] org.apache.http.headers - << Connection: keep-alive
+2018-11-22 14:01:31.799 [DEBUG] com.yy.util.SSLClient - Connection can be kept alive indefinitely
+2018-11-22 14:01:31.799 [DEBUG] org.apache.http.wire -  << "<html>[\r][\n]"
+2018-11-22 14:01:31.799 [DEBUG] org.apache.http.wire -  << "<head><title>500 Internal Server Error</title></head>[\r][\n]"
+2018-11-22 14:01:31.799 [DEBUG] org.apache.http.wire -  << "<body bgcolor="white">[\r][\n]"
+2018-11-22 14:01:31.799 [DEBUG] org.apache.http.wire -  << "<center><h1>500 Internal Server Error</h1></center>[\r][\n]"
+2018-11-22 14:01:31.799 [DEBUG] org.apache.http.wire -  << "<hr><center>nginx/1.11.5</center>[\r][\n]"
+2018-11-22 14:01:31.802 [DEBUG] org.apache.http.wire -  << "</body>[\r][\n]"
+2018-11-22 14:01:31.802 [DEBUG] org.apache.http.wire -  << "</html>[\r][\n]"
+2018-11-22 14:01:31.802 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@25df00a0
+2018-11-22 14:01:31.802 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager - Connection can be kept alive indefinitely
+2018-11-22 14:01:31.802 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:1386<->39.107.192.176:80 closed
+2018-11-22 14:01:31.818 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {}->http://www.tuling123.com:80
+2018-11-22 14:01:31.818 [DEBUG] org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to www.tuling123.com:80
+2018-11-22 14:01:31.865 [DEBUG] org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+2018-11-22 14:01:31.865 [DEBUG] org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+2018-11-22 14:01:31.865 [DEBUG] org.apache.http.client.protocol.RequestTargetAuthentication - Target auth state: UNCHALLENGED
+2018-11-22 14:01:31.865 [DEBUG] org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+2018-11-22 14:01:31.865 [DEBUG] com.yy.util.SSLClient - Attempt 1 to execute request
+2018-11-22 14:01:31.865 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection - Sending request: POST /openapi/api/v2 HTTP/1.1
+2018-11-22 14:01:31.869 [DEBUG] org.apache.http.wire -  >> "POST /openapi/api/v2 HTTP/1.1[\r][\n]"
+2018-11-22 14:01:31.869 [DEBUG] org.apache.http.wire -  >> "Content-Type: application/json[\r][\n]"
+2018-11-22 14:01:31.869 [DEBUG] org.apache.http.wire -  >> "Content-Length: 15[\r][\n]"
+2018-11-22 14:01:31.869 [DEBUG] org.apache.http.wire -  >> "Content-Type: application/json[\r][\n]"
+2018-11-22 14:01:31.869 [DEBUG] org.apache.http.wire -  >> "Host: www.tuling123.com[\r][\n]"
+2018-11-22 14:01:31.869 [DEBUG] org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+2018-11-22 14:01:31.869 [DEBUG] org.apache.http.wire -  >> "User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_121)[\r][\n]"
+2018-11-22 14:01:31.869 [DEBUG] org.apache.http.wire -  >> "[\r][\n]"
+2018-11-22 14:01:31.869 [DEBUG] org.apache.http.headers - >> POST /openapi/api/v2 HTTP/1.1
+2018-11-22 14:01:31.869 [DEBUG] org.apache.http.headers - >> Content-Type: application/json
+2018-11-22 14:01:31.869 [DEBUG] org.apache.http.headers - >> Content-Length: 15
+2018-11-22 14:01:31.869 [DEBUG] org.apache.http.headers - >> Content-Type: application/json
+2018-11-22 14:01:31.869 [DEBUG] org.apache.http.headers - >> Host: www.tuling123.com
+2018-11-22 14:01:31.869 [DEBUG] org.apache.http.headers - >> Connection: Keep-Alive
+2018-11-22 14:01:31.869 [DEBUG] org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_121)
+2018-11-22 14:01:31.869 [DEBUG] org.apache.http.wire -  >> "{'key':'???12'}"
+2018-11-22 14:01:31.920 [DEBUG] org.apache.http.wire -  << "HTTP/1.1 500 Internal Server Error[\r][\n]"
+2018-11-22 14:01:31.920 [DEBUG] org.apache.http.wire -  << "Date: Thu, 22 Nov 2018 06:01:32 GMT[\r][\n]"
+2018-11-22 14:01:31.920 [DEBUG] org.apache.http.wire -  << "Content-Type: text/html; charset=UTF-8[\r][\n]"
+2018-11-22 14:01:31.920 [DEBUG] org.apache.http.wire -  << "Content-Length: 193[\r][\n]"
+2018-11-22 14:01:31.920 [DEBUG] org.apache.http.wire -  << "Connection: keep-alive[\r][\n]"
+2018-11-22 14:01:31.920 [DEBUG] org.apache.http.wire -  << "[\r][\n]"
+2018-11-22 14:01:31.920 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 500 Internal Server Error
+2018-11-22 14:01:31.920 [DEBUG] org.apache.http.headers - << HTTP/1.1 500 Internal Server Error
+2018-11-22 14:01:31.920 [DEBUG] org.apache.http.headers - << Date: Thu, 22 Nov 2018 06:01:32 GMT
+2018-11-22 14:01:31.920 [DEBUG] org.apache.http.headers - << Content-Type: text/html; charset=UTF-8
+2018-11-22 14:01:31.920 [DEBUG] org.apache.http.headers - << Content-Length: 193
+2018-11-22 14:01:31.920 [DEBUG] org.apache.http.headers - << Connection: keep-alive
+2018-11-22 14:01:31.920 [DEBUG] com.yy.util.SSLClient - Connection can be kept alive indefinitely
+2018-11-22 14:01:31.920 [DEBUG] org.apache.http.wire -  << "<html>[\r][\n]"
+2018-11-22 14:01:31.920 [DEBUG] org.apache.http.wire -  << "<head><title>500 Internal Server Error</title></head>[\r][\n]"
+2018-11-22 14:01:31.920 [DEBUG] org.apache.http.wire -  << "<body bgcolor="white">[\r][\n]"
+2018-11-22 14:01:31.920 [DEBUG] org.apache.http.wire -  << "<center><h1>500 Internal Server Error</h1></center>[\r][\n]"
+2018-11-22 14:01:31.920 [DEBUG] org.apache.http.wire -  << "<hr><center>nginx/1.11.5</center>[\r][\n]"
+2018-11-22 14:01:31.920 [DEBUG] org.apache.http.wire -  << "</body>[\r][\n]"
+2018-11-22 14:01:31.924 [DEBUG] org.apache.http.wire -  << "</html>[\r][\n]"
+2018-11-22 14:01:31.924 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@50378a4
+2018-11-22 14:01:31.924 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager - Connection can be kept alive indefinitely
+2018-11-22 14:01:31.924 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:1388<->39.107.192.176:80 closed
+2018-11-22 14:01:31.931 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {}->http://www.tuling123.com:80
+2018-11-22 14:01:31.931 [DEBUG] org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to www.tuling123.com:80
+2018-11-22 14:01:31.978 [DEBUG] org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+2018-11-22 14:01:31.978 [DEBUG] org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+2018-11-22 14:01:31.978 [DEBUG] org.apache.http.client.protocol.RequestTargetAuthentication - Target auth state: UNCHALLENGED
+2018-11-22 14:01:31.978 [DEBUG] org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+2018-11-22 14:01:31.978 [DEBUG] com.yy.util.SSLClient - Attempt 1 to execute request
+2018-11-22 14:01:31.978 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection - Sending request: POST /openapi/api/v2 HTTP/1.1
+2018-11-22 14:01:31.978 [DEBUG] org.apache.http.wire -  >> "POST /openapi/api/v2 HTTP/1.1[\r][\n]"
+2018-11-22 14:01:31.978 [DEBUG] org.apache.http.wire -  >> "Content-Type: application/json[\r][\n]"
+2018-11-22 14:01:31.978 [DEBUG] org.apache.http.wire -  >> "Content-Length: 15[\r][\n]"
+2018-11-22 14:01:31.978 [DEBUG] org.apache.http.wire -  >> "Content-Type: application/json[\r][\n]"
+2018-11-22 14:01:31.978 [DEBUG] org.apache.http.wire -  >> "Host: www.tuling123.com[\r][\n]"
+2018-11-22 14:01:31.978 [DEBUG] org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+2018-11-22 14:01:31.978 [DEBUG] org.apache.http.wire -  >> "User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_121)[\r][\n]"
+2018-11-22 14:01:31.978 [DEBUG] org.apache.http.wire -  >> "[\r][\n]"
+2018-11-22 14:01:31.978 [DEBUG] org.apache.http.headers - >> POST /openapi/api/v2 HTTP/1.1
+2018-11-22 14:01:31.978 [DEBUG] org.apache.http.headers - >> Content-Type: application/json
+2018-11-22 14:01:31.978 [DEBUG] org.apache.http.headers - >> Content-Length: 15
+2018-11-22 14:01:31.978 [DEBUG] org.apache.http.headers - >> Content-Type: application/json
+2018-11-22 14:01:31.978 [DEBUG] org.apache.http.headers - >> Host: www.tuling123.com
+2018-11-22 14:01:31.978 [DEBUG] org.apache.http.headers - >> Connection: Keep-Alive
+2018-11-22 14:01:31.978 [DEBUG] org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_121)
+2018-11-22 14:01:31.978 [DEBUG] org.apache.http.wire -  >> "{'key':'???13'}"
+2018-11-22 14:01:32.029 [DEBUG] org.apache.http.wire -  << "HTTP/1.1 500 Internal Server Error[\r][\n]"
+2018-11-22 14:01:32.029 [DEBUG] org.apache.http.wire -  << "Date: Thu, 22 Nov 2018 06:01:32 GMT[\r][\n]"
+2018-11-22 14:01:32.029 [DEBUG] org.apache.http.wire -  << "Content-Type: text/html; charset=UTF-8[\r][\n]"
+2018-11-22 14:01:32.029 [DEBUG] org.apache.http.wire -  << "Content-Length: 193[\r][\n]"
+2018-11-22 14:01:32.029 [DEBUG] org.apache.http.wire -  << "Connection: keep-alive[\r][\n]"
+2018-11-22 14:01:32.029 [DEBUG] org.apache.http.wire -  << "[\r][\n]"
+2018-11-22 14:01:32.029 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 500 Internal Server Error
+2018-11-22 14:01:32.029 [DEBUG] org.apache.http.headers - << HTTP/1.1 500 Internal Server Error
+2018-11-22 14:01:32.029 [DEBUG] org.apache.http.headers - << Date: Thu, 22 Nov 2018 06:01:32 GMT
+2018-11-22 14:01:32.029 [DEBUG] org.apache.http.headers - << Content-Type: text/html; charset=UTF-8
+2018-11-22 14:01:32.029 [DEBUG] org.apache.http.headers - << Content-Length: 193
+2018-11-22 14:01:32.029 [DEBUG] org.apache.http.headers - << Connection: keep-alive
+2018-11-22 14:01:32.029 [DEBUG] com.yy.util.SSLClient - Connection can be kept alive indefinitely
+2018-11-22 14:01:32.029 [DEBUG] org.apache.http.wire -  << "<html>[\r][\n]"
+2018-11-22 14:01:32.029 [DEBUG] org.apache.http.wire -  << "<head><title>500 Internal Server Error</title></head>[\r][\n]"
+2018-11-22 14:01:32.033 [DEBUG] org.apache.http.wire -  << "<body bgcolor="white">[\r][\n]"
+2018-11-22 14:01:32.033 [DEBUG] org.apache.http.wire -  << "<center><h1>500 Internal Server Error</h1></center>[\r][\n]"
+2018-11-22 14:01:32.033 [DEBUG] org.apache.http.wire -  << "<hr><center>nginx/1.11.5</center>[\r][\n]"
+2018-11-22 14:01:32.033 [DEBUG] org.apache.http.wire -  << "</body>[\r][\n]"
+2018-11-22 14:01:32.033 [DEBUG] org.apache.http.wire -  << "</html>[\r][\n]"
+2018-11-22 14:01:32.033 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@1a4927d6
+2018-11-22 14:01:32.033 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager - Connection can be kept alive indefinitely
+2018-11-22 14:01:32.033 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:1389<->39.107.192.176:80 closed
+2018-11-22 14:01:32.041 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {}->http://www.tuling123.com:80
+2018-11-22 14:01:32.041 [DEBUG] org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to www.tuling123.com:80
+2018-11-22 14:01:32.092 [DEBUG] org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+2018-11-22 14:01:32.092 [DEBUG] org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+2018-11-22 14:01:32.092 [DEBUG] org.apache.http.client.protocol.RequestTargetAuthentication - Target auth state: UNCHALLENGED
+2018-11-22 14:01:32.092 [DEBUG] org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+2018-11-22 14:01:32.092 [DEBUG] com.yy.util.SSLClient - Attempt 1 to execute request
+2018-11-22 14:01:32.092 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection - Sending request: POST /openapi/api/v2 HTTP/1.1
+2018-11-22 14:01:32.092 [DEBUG] org.apache.http.wire -  >> "POST /openapi/api/v2 HTTP/1.1[\r][\n]"
+2018-11-22 14:01:32.092 [DEBUG] org.apache.http.wire -  >> "Content-Type: application/json[\r][\n]"
+2018-11-22 14:01:32.092 [DEBUG] org.apache.http.wire -  >> "Content-Length: 15[\r][\n]"
+2018-11-22 14:01:32.092 [DEBUG] org.apache.http.wire -  >> "Content-Type: application/json[\r][\n]"
+2018-11-22 14:01:32.092 [DEBUG] org.apache.http.wire -  >> "Host: www.tuling123.com[\r][\n]"
+2018-11-22 14:01:32.092 [DEBUG] org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+2018-11-22 14:01:32.092 [DEBUG] org.apache.http.wire -  >> "User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_121)[\r][\n]"
+2018-11-22 14:01:32.092 [DEBUG] org.apache.http.wire -  >> "[\r][\n]"
+2018-11-22 14:01:32.092 [DEBUG] org.apache.http.headers - >> POST /openapi/api/v2 HTTP/1.1
+2018-11-22 14:01:32.092 [DEBUG] org.apache.http.headers - >> Content-Type: application/json
+2018-11-22 14:01:32.092 [DEBUG] org.apache.http.headers - >> Content-Length: 15
+2018-11-22 14:01:32.092 [DEBUG] org.apache.http.headers - >> Content-Type: application/json
+2018-11-22 14:01:32.092 [DEBUG] org.apache.http.headers - >> Host: www.tuling123.com
+2018-11-22 14:01:32.092 [DEBUG] org.apache.http.headers - >> Connection: Keep-Alive
+2018-11-22 14:01:32.092 [DEBUG] org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_121)
+2018-11-22 14:01:32.095 [DEBUG] org.apache.http.wire -  >> "{'key':'???14'}"
+2018-11-22 14:01:32.154 [DEBUG] org.apache.http.wire -  << "HTTP/1.1 500 Internal Server Error[\r][\n]"
+2018-11-22 14:01:32.154 [DEBUG] org.apache.http.wire -  << "Date: Thu, 22 Nov 2018 06:01:32 GMT[\r][\n]"
+2018-11-22 14:01:32.154 [DEBUG] org.apache.http.wire -  << "Content-Type: text/html; charset=UTF-8[\r][\n]"
+2018-11-22 14:01:32.154 [DEBUG] org.apache.http.wire -  << "Content-Length: 193[\r][\n]"
+2018-11-22 14:01:32.154 [DEBUG] org.apache.http.wire -  << "Connection: keep-alive[\r][\n]"
+2018-11-22 14:01:32.154 [DEBUG] org.apache.http.wire -  << "[\r][\n]"
+2018-11-22 14:01:32.154 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 500 Internal Server Error
+2018-11-22 14:01:32.154 [DEBUG] org.apache.http.headers - << HTTP/1.1 500 Internal Server Error
+2018-11-22 14:01:32.154 [DEBUG] org.apache.http.headers - << Date: Thu, 22 Nov 2018 06:01:32 GMT
+2018-11-22 14:01:32.154 [DEBUG] org.apache.http.headers - << Content-Type: text/html; charset=UTF-8
+2018-11-22 14:01:32.154 [DEBUG] org.apache.http.headers - << Content-Length: 193
+2018-11-22 14:01:32.154 [DEBUG] org.apache.http.headers - << Connection: keep-alive
+2018-11-22 14:01:32.154 [DEBUG] com.yy.util.SSLClient - Connection can be kept alive indefinitely
+2018-11-22 14:01:32.158 [DEBUG] org.apache.http.wire -  << "<html>[\r][\n]"
+2018-11-22 14:01:32.158 [DEBUG] org.apache.http.wire -  << "<head><title>500 Internal Server Error</title></head>[\r][\n]"
+2018-11-22 14:01:32.158 [DEBUG] org.apache.http.wire -  << "<body bgcolor="white">[\r][\n]"
+2018-11-22 14:01:32.158 [DEBUG] org.apache.http.wire -  << "<center><h1>500 Internal Server Error</h1></center>[\r][\n]"
+2018-11-22 14:01:32.158 [DEBUG] org.apache.http.wire -  << "<hr><center>nginx/1.11.5</center>[\r][\n]"
+2018-11-22 14:01:32.158 [DEBUG] org.apache.http.wire -  << "</body>[\r][\n]"
+2018-11-22 14:01:32.158 [DEBUG] org.apache.http.wire -  << "</html>[\r][\n]"
+2018-11-22 14:01:32.158 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@5a5a729f
+2018-11-22 14:01:32.158 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager - Connection can be kept alive indefinitely
+2018-11-22 14:01:32.158 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:1390<->39.107.192.176:80 closed
+2018-11-22 14:03:15.387 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {}->http://www.tuling123.com:80
+2018-11-22 14:03:15.411 [DEBUG] org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to www.tuling123.com:80
+2018-11-22 14:03:15.482 [DEBUG] org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+2018-11-22 14:03:15.484 [DEBUG] org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+2018-11-22 14:03:15.484 [DEBUG] org.apache.http.client.protocol.RequestTargetAuthentication - Target auth state: UNCHALLENGED
+2018-11-22 14:03:15.485 [DEBUG] org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+2018-11-22 14:03:15.485 [DEBUG] com.yy.util.SSLClient - Attempt 1 to execute request
+2018-11-22 14:03:15.487 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection - Sending request: POST /openapi/api/v2 HTTP/1.1
+2018-11-22 14:03:15.488 [DEBUG] org.apache.http.wire -  >> "POST /openapi/api/v2 HTTP/1.1[\r][\n]"
+2018-11-22 14:03:15.489 [DEBUG] org.apache.http.wire -  >> "Content-Type: application/json[\r][\n]"
+2018-11-22 14:03:15.489 [DEBUG] org.apache.http.wire -  >> "Content-Length: 14[\r][\n]"
+2018-11-22 14:03:15.489 [DEBUG] org.apache.http.wire -  >> "Content-Type: application/json[\r][\n]"
+2018-11-22 14:03:15.489 [DEBUG] org.apache.http.wire -  >> "Host: www.tuling123.com[\r][\n]"
+2018-11-22 14:03:15.489 [DEBUG] org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+2018-11-22 14:03:15.490 [DEBUG] org.apache.http.wire -  >> "User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_121)[\r][\n]"
+2018-11-22 14:03:15.490 [DEBUG] org.apache.http.wire -  >> "[\r][\n]"
+2018-11-22 14:03:15.490 [DEBUG] org.apache.http.headers - >> POST /openapi/api/v2 HTTP/1.1
+2018-11-22 14:03:15.490 [DEBUG] org.apache.http.headers - >> Content-Type: application/json
+2018-11-22 14:03:15.490 [DEBUG] org.apache.http.headers - >> Content-Length: 14
+2018-11-22 14:03:15.490 [DEBUG] org.apache.http.headers - >> Content-Type: application/json
+2018-11-22 14:03:15.490 [DEBUG] org.apache.http.headers - >> Host: www.tuling123.com
+2018-11-22 14:03:15.491 [DEBUG] org.apache.http.headers - >> Connection: Keep-Alive
+2018-11-22 14:03:15.491 [DEBUG] org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_121)
+2018-11-22 14:03:15.491 [DEBUG] org.apache.http.wire -  >> "{'key':'???1'}"
+2018-11-22 14:03:15.542 [DEBUG] org.apache.http.wire -  << "HTTP/1.1 500 Internal Server Error[\r][\n]"
+2018-11-22 14:03:15.545 [DEBUG] org.apache.http.wire -  << "Date: Thu, 22 Nov 2018 06:03:16 GMT[\r][\n]"
+2018-11-22 14:03:15.545 [DEBUG] org.apache.http.wire -  << "Content-Type: text/html; charset=UTF-8[\r][\n]"
+2018-11-22 14:03:15.545 [DEBUG] org.apache.http.wire -  << "Content-Length: 193[\r][\n]"
+2018-11-22 14:03:15.545 [DEBUG] org.apache.http.wire -  << "Connection: keep-alive[\r][\n]"
+2018-11-22 14:03:15.545 [DEBUG] org.apache.http.wire -  << "[\r][\n]"
+2018-11-22 14:03:15.547 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 500 Internal Server Error
+2018-11-22 14:03:15.547 [DEBUG] org.apache.http.headers - << HTTP/1.1 500 Internal Server Error
+2018-11-22 14:03:15.547 [DEBUG] org.apache.http.headers - << Date: Thu, 22 Nov 2018 06:03:16 GMT
+2018-11-22 14:03:15.547 [DEBUG] org.apache.http.headers - << Content-Type: text/html; charset=UTF-8
+2018-11-22 14:03:15.547 [DEBUG] org.apache.http.headers - << Content-Length: 193
+2018-11-22 14:03:15.548 [DEBUG] org.apache.http.headers - << Connection: keep-alive
+2018-11-22 14:03:15.558 [DEBUG] com.yy.util.SSLClient - Connection can be kept alive indefinitely
+2018-11-22 14:03:15.582 [DEBUG] org.apache.http.wire -  << "<html>[\r][\n]"
+2018-11-22 14:03:15.582 [DEBUG] org.apache.http.wire -  << "<head><title>500 Internal Server Error</title></head>[\r][\n]"
+2018-11-22 14:03:15.583 [DEBUG] org.apache.http.wire -  << "<body bgcolor="white">[\r][\n]"
+2018-11-22 14:03:15.583 [DEBUG] org.apache.http.wire -  << "<center><h1>500 Internal Server Error</h1></center>[\r][\n]"
+2018-11-22 14:03:15.583 [DEBUG] org.apache.http.wire -  << "<hr><center>nginx/1.11.5</center>[\r][\n]"
+2018-11-22 14:03:15.583 [DEBUG] org.apache.http.wire -  << "</body>[\r][\n]"
+2018-11-22 14:03:15.583 [DEBUG] org.apache.http.wire -  << "</html>[\r][\n]"
+2018-11-22 14:03:15.583 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@5745ca0e
+2018-11-22 14:03:15.584 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager - Connection can be kept alive indefinitely
+2018-11-22 14:03:15.585 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:1419<->39.107.192.176:80 closed
+2018-11-22 14:03:15.606 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {}->http://www.tuling123.com:80
+2018-11-22 14:03:15.606 [DEBUG] org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to www.tuling123.com:80
+2018-11-22 14:03:15.651 [DEBUG] org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+2018-11-22 14:03:15.651 [DEBUG] org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+2018-11-22 14:03:15.651 [DEBUG] org.apache.http.client.protocol.RequestTargetAuthentication - Target auth state: UNCHALLENGED
+2018-11-22 14:03:15.652 [DEBUG] org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+2018-11-22 14:03:15.652 [DEBUG] com.yy.util.SSLClient - Attempt 1 to execute request
+2018-11-22 14:03:15.652 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection - Sending request: POST /openapi/api/v2 HTTP/1.1
+2018-11-22 14:03:15.652 [DEBUG] org.apache.http.wire -  >> "POST /openapi/api/v2 HTTP/1.1[\r][\n]"
+2018-11-22 14:03:15.653 [DEBUG] org.apache.http.wire -  >> "Content-Type: application/json[\r][\n]"
+2018-11-22 14:03:15.653 [DEBUG] org.apache.http.wire -  >> "Content-Length: 14[\r][\n]"
+2018-11-22 14:03:15.653 [DEBUG] org.apache.http.wire -  >> "Content-Type: application/json[\r][\n]"
+2018-11-22 14:03:15.653 [DEBUG] org.apache.http.wire -  >> "Host: www.tuling123.com[\r][\n]"
+2018-11-22 14:03:15.653 [DEBUG] org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+2018-11-22 14:03:15.654 [DEBUG] org.apache.http.wire -  >> "User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_121)[\r][\n]"
+2018-11-22 14:03:15.654 [DEBUG] org.apache.http.wire -  >> "[\r][\n]"
+2018-11-22 14:03:15.654 [DEBUG] org.apache.http.headers - >> POST /openapi/api/v2 HTTP/1.1
+2018-11-22 14:03:15.654 [DEBUG] org.apache.http.headers - >> Content-Type: application/json
+2018-11-22 14:03:15.654 [DEBUG] org.apache.http.headers - >> Content-Length: 14
+2018-11-22 14:03:15.654 [DEBUG] org.apache.http.headers - >> Content-Type: application/json
+2018-11-22 14:03:15.654 [DEBUG] org.apache.http.headers - >> Host: www.tuling123.com
+2018-11-22 14:03:15.655 [DEBUG] org.apache.http.headers - >> Connection: Keep-Alive
+2018-11-22 14:03:15.655 [DEBUG] org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_121)
+2018-11-22 14:03:15.655 [DEBUG] org.apache.http.wire -  >> "{'key':'???2'}"
+2018-11-22 14:03:15.708 [DEBUG] org.apache.http.wire -  << "HTTP/1.1 500 Internal Server Error[\r][\n]"
+2018-11-22 14:03:15.709 [DEBUG] org.apache.http.wire -  << "Date: Thu, 22 Nov 2018 06:03:16 GMT[\r][\n]"
+2018-11-22 14:03:15.709 [DEBUG] org.apache.http.wire -  << "Content-Type: text/html; charset=UTF-8[\r][\n]"
+2018-11-22 14:03:15.709 [DEBUG] org.apache.http.wire -  << "Content-Length: 193[\r][\n]"
+2018-11-22 14:03:15.710 [DEBUG] org.apache.http.wire -  << "Connection: keep-alive[\r][\n]"
+2018-11-22 14:03:15.710 [DEBUG] org.apache.http.wire -  << "[\r][\n]"
+2018-11-22 14:03:15.710 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 500 Internal Server Error
+2018-11-22 14:03:15.710 [DEBUG] org.apache.http.headers - << HTTP/1.1 500 Internal Server Error
+2018-11-22 14:03:15.710 [DEBUG] org.apache.http.headers - << Date: Thu, 22 Nov 2018 06:03:16 GMT
+2018-11-22 14:03:15.710 [DEBUG] org.apache.http.headers - << Content-Type: text/html; charset=UTF-8
+2018-11-22 14:03:15.710 [DEBUG] org.apache.http.headers - << Content-Length: 193
+2018-11-22 14:03:15.711 [DEBUG] org.apache.http.headers - << Connection: keep-alive
+2018-11-22 14:03:15.711 [DEBUG] com.yy.util.SSLClient - Connection can be kept alive indefinitely
+2018-11-22 14:03:15.711 [DEBUG] org.apache.http.wire -  << "<html>[\r][\n]"
+2018-11-22 14:03:15.711 [DEBUG] org.apache.http.wire -  << "<head><title>500 Internal Server Error</title></head>[\r][\n]"
+2018-11-22 14:03:15.712 [DEBUG] org.apache.http.wire -  << "<body bgcolor="white">[\r][\n]"
+2018-11-22 14:03:15.712 [DEBUG] org.apache.http.wire -  << "<center><h1>500 Internal Server Error</h1></center>[\r][\n]"
+2018-11-22 14:03:15.712 [DEBUG] org.apache.http.wire -  << "<hr><center>nginx/1.11.5</center>[\r][\n]"
+2018-11-22 14:03:15.712 [DEBUG] org.apache.http.wire -  << "</body>[\r][\n]"
+2018-11-22 14:03:15.712 [DEBUG] org.apache.http.wire -  << "</html>[\r][\n]"
+2018-11-22 14:03:15.712 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@5b38c1ec
+2018-11-22 14:03:15.712 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager - Connection can be kept alive indefinitely
+2018-11-22 14:03:15.713 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:1420<->39.107.192.176:80 closed
+2018-11-22 14:03:15.743 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {}->http://www.tuling123.com:80
+2018-11-22 14:03:15.743 [DEBUG] org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to www.tuling123.com:80
+2018-11-22 14:03:15.794 [DEBUG] org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+2018-11-22 14:03:15.794 [DEBUG] org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+2018-11-22 14:03:15.795 [DEBUG] org.apache.http.client.protocol.RequestTargetAuthentication - Target auth state: UNCHALLENGED
+2018-11-22 14:03:15.795 [DEBUG] org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+2018-11-22 14:03:15.795 [DEBUG] com.yy.util.SSLClient - Attempt 1 to execute request
+2018-11-22 14:03:15.795 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection - Sending request: POST /openapi/api/v2 HTTP/1.1
+2018-11-22 14:03:15.795 [DEBUG] org.apache.http.wire -  >> "POST /openapi/api/v2 HTTP/1.1[\r][\n]"
+2018-11-22 14:03:15.795 [DEBUG] org.apache.http.wire -  >> "Content-Type: application/json[\r][\n]"
+2018-11-22 14:03:15.796 [DEBUG] org.apache.http.wire -  >> "Content-Length: 14[\r][\n]"
+2018-11-22 14:03:15.796 [DEBUG] org.apache.http.wire -  >> "Content-Type: application/json[\r][\n]"
+2018-11-22 14:03:15.796 [DEBUG] org.apache.http.wire -  >> "Host: www.tuling123.com[\r][\n]"
+2018-11-22 14:03:15.796 [DEBUG] org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+2018-11-22 14:03:15.796 [DEBUG] org.apache.http.wire -  >> "User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_121)[\r][\n]"
+2018-11-22 14:03:15.796 [DEBUG] org.apache.http.wire -  >> "[\r][\n]"
+2018-11-22 14:03:15.797 [DEBUG] org.apache.http.headers - >> POST /openapi/api/v2 HTTP/1.1
+2018-11-22 14:03:15.797 [DEBUG] org.apache.http.headers - >> Content-Type: application/json
+2018-11-22 14:03:15.797 [DEBUG] org.apache.http.headers - >> Content-Length: 14
+2018-11-22 14:03:15.797 [DEBUG] org.apache.http.headers - >> Content-Type: application/json
+2018-11-22 14:03:15.797 [DEBUG] org.apache.http.headers - >> Host: www.tuling123.com
+2018-11-22 14:03:15.797 [DEBUG] org.apache.http.headers - >> Connection: Keep-Alive
+2018-11-22 14:03:15.797 [DEBUG] org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_121)
+2018-11-22 14:03:15.797 [DEBUG] org.apache.http.wire -  >> "{'key':'???3'}"
+2018-11-22 14:03:15.846 [DEBUG] org.apache.http.wire -  << "HTTP/1.1 500 Internal Server Error[\r][\n]"
+2018-11-22 14:03:15.847 [DEBUG] org.apache.http.wire -  << "Date: Thu, 22 Nov 2018 06:03:16 GMT[\r][\n]"
+2018-11-22 14:03:15.847 [DEBUG] org.apache.http.wire -  << "Content-Type: text/html; charset=UTF-8[\r][\n]"
+2018-11-22 14:03:15.847 [DEBUG] org.apache.http.wire -  << "Content-Length: 193[\r][\n]"
+2018-11-22 14:03:15.847 [DEBUG] org.apache.http.wire -  << "Connection: keep-alive[\r][\n]"
+2018-11-22 14:03:15.847 [DEBUG] org.apache.http.wire -  << "[\r][\n]"
+2018-11-22 14:03:15.847 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 500 Internal Server Error
+2018-11-22 14:03:15.847 [DEBUG] org.apache.http.headers - << HTTP/1.1 500 Internal Server Error
+2018-11-22 14:03:15.847 [DEBUG] org.apache.http.headers - << Date: Thu, 22 Nov 2018 06:03:16 GMT
+2018-11-22 14:03:15.848 [DEBUG] org.apache.http.headers - << Content-Type: text/html; charset=UTF-8
+2018-11-22 14:03:15.848 [DEBUG] org.apache.http.headers - << Content-Length: 193
+2018-11-22 14:03:15.848 [DEBUG] org.apache.http.headers - << Connection: keep-alive
+2018-11-22 14:03:15.848 [DEBUG] com.yy.util.SSLClient - Connection can be kept alive indefinitely
+2018-11-22 14:03:15.848 [DEBUG] org.apache.http.wire -  << "<html>[\r][\n]"
+2018-11-22 14:03:15.849 [DEBUG] org.apache.http.wire -  << "<head><title>500 Internal Server Error</title></head>[\r][\n]"
+2018-11-22 14:03:15.849 [DEBUG] org.apache.http.wire -  << "<body bgcolor="white">[\r][\n]"
+2018-11-22 14:03:15.849 [DEBUG] org.apache.http.wire -  << "<center><h1>500 Internal Server Error</h1></center>[\r][\n]"
+2018-11-22 14:03:15.849 [DEBUG] org.apache.http.wire -  << "<hr><center>nginx/1.11.5</center>[\r][\n]"
+2018-11-22 14:03:15.849 [DEBUG] org.apache.http.wire -  << "</body>[\r][\n]"
+2018-11-22 14:03:15.849 [DEBUG] org.apache.http.wire -  << "</html>[\r][\n]"
+2018-11-22 14:03:15.849 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@55cb6996
+2018-11-22 14:03:15.849 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager - Connection can be kept alive indefinitely
+2018-11-22 14:03:15.850 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:1421<->39.107.192.176:80 closed
+2018-11-22 14:03:15.861 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {}->http://www.tuling123.com:80
+2018-11-22 14:03:15.861 [DEBUG] org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to www.tuling123.com:80
+2018-11-22 14:03:15.907 [DEBUG] org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+2018-11-22 14:03:15.907 [DEBUG] org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+2018-11-22 14:03:15.907 [DEBUG] org.apache.http.client.protocol.RequestTargetAuthentication - Target auth state: UNCHALLENGED
+2018-11-22 14:03:15.907 [DEBUG] org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+2018-11-22 14:03:15.907 [DEBUG] com.yy.util.SSLClient - Attempt 1 to execute request
+2018-11-22 14:03:15.907 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection - Sending request: POST /openapi/api/v2 HTTP/1.1
+2018-11-22 14:03:15.907 [DEBUG] org.apache.http.wire -  >> "POST /openapi/api/v2 HTTP/1.1[\r][\n]"
+2018-11-22 14:03:15.907 [DEBUG] org.apache.http.wire -  >> "Content-Type: application/json[\r][\n]"
+2018-11-22 14:03:15.907 [DEBUG] org.apache.http.wire -  >> "Content-Length: 14[\r][\n]"
+2018-11-22 14:03:15.907 [DEBUG] org.apache.http.wire -  >> "Content-Type: application/json[\r][\n]"
+2018-11-22 14:03:15.907 [DEBUG] org.apache.http.wire -  >> "Host: www.tuling123.com[\r][\n]"
+2018-11-22 14:03:15.907 [DEBUG] org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+2018-11-22 14:03:15.907 [DEBUG] org.apache.http.wire -  >> "User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_121)[\r][\n]"
+2018-11-22 14:03:15.907 [DEBUG] org.apache.http.wire -  >> "[\r][\n]"
+2018-11-22 14:03:15.907 [DEBUG] org.apache.http.headers - >> POST /openapi/api/v2 HTTP/1.1
+2018-11-22 14:03:15.907 [DEBUG] org.apache.http.headers - >> Content-Type: application/json
+2018-11-22 14:03:15.907 [DEBUG] org.apache.http.headers - >> Content-Length: 14
+2018-11-22 14:03:15.907 [DEBUG] org.apache.http.headers - >> Content-Type: application/json
+2018-11-22 14:03:15.907 [DEBUG] org.apache.http.headers - >> Host: www.tuling123.com
+2018-11-22 14:03:15.907 [DEBUG] org.apache.http.headers - >> Connection: Keep-Alive
+2018-11-22 14:03:15.907 [DEBUG] org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_121)
+2018-11-22 14:03:15.907 [DEBUG] org.apache.http.wire -  >> "{'key':'???4'}"
+2018-11-22 14:03:15.958 [DEBUG] org.apache.http.wire -  << "HTTP/1.1 500 Internal Server Error[\r][\n]"
+2018-11-22 14:03:15.958 [DEBUG] org.apache.http.wire -  << "Date: Thu, 22 Nov 2018 06:03:16 GMT[\r][\n]"
+2018-11-22 14:03:15.958 [DEBUG] org.apache.http.wire -  << "Content-Type: text/html; charset=UTF-8[\r][\n]"
+2018-11-22 14:03:15.958 [DEBUG] org.apache.http.wire -  << "Content-Length: 193[\r][\n]"
+2018-11-22 14:03:15.958 [DEBUG] org.apache.http.wire -  << "Connection: keep-alive[\r][\n]"
+2018-11-22 14:03:15.958 [DEBUG] org.apache.http.wire -  << "[\r][\n]"
+2018-11-22 14:03:15.958 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 500 Internal Server Error
+2018-11-22 14:03:15.958 [DEBUG] org.apache.http.headers - << HTTP/1.1 500 Internal Server Error
+2018-11-22 14:03:15.958 [DEBUG] org.apache.http.headers - << Date: Thu, 22 Nov 2018 06:03:16 GMT
+2018-11-22 14:03:15.958 [DEBUG] org.apache.http.headers - << Content-Type: text/html; charset=UTF-8
+2018-11-22 14:03:15.958 [DEBUG] org.apache.http.headers - << Content-Length: 193
+2018-11-22 14:03:15.958 [DEBUG] org.apache.http.headers - << Connection: keep-alive
+2018-11-22 14:03:15.958 [DEBUG] com.yy.util.SSLClient - Connection can be kept alive indefinitely
+2018-11-22 14:03:15.958 [DEBUG] org.apache.http.wire -  << "<html>[\r][\n]"
+2018-11-22 14:03:15.958 [DEBUG] org.apache.http.wire -  << "<head><title>500 Internal Server Error</title></head>[\r][\n]"
+2018-11-22 14:03:15.958 [DEBUG] org.apache.http.wire -  << "<body bgcolor="white">[\r][\n]"
+2018-11-22 14:03:15.958 [DEBUG] org.apache.http.wire -  << "<center><h1>500 Internal Server Error</h1></center>[\r][\n]"
+2018-11-22 14:03:15.958 [DEBUG] org.apache.http.wire -  << "<hr><center>nginx/1.11.5</center>[\r][\n]"
+2018-11-22 14:03:15.958 [DEBUG] org.apache.http.wire -  << "</body>[\r][\n]"
+2018-11-22 14:03:15.958 [DEBUG] org.apache.http.wire -  << "</html>[\r][\n]"
+2018-11-22 14:03:15.958 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@194fad1
+2018-11-22 14:03:15.958 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager - Connection can be kept alive indefinitely
+2018-11-22 14:03:15.958 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:1422<->39.107.192.176:80 closed
+2018-11-22 14:03:15.978 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {}->http://www.tuling123.com:80
+2018-11-22 14:03:15.978 [DEBUG] org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to www.tuling123.com:80
+2018-11-22 14:03:16.025 [DEBUG] org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+2018-11-22 14:03:16.025 [DEBUG] org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+2018-11-22 14:03:16.025 [DEBUG] org.apache.http.client.protocol.RequestTargetAuthentication - Target auth state: UNCHALLENGED
+2018-11-22 14:03:16.029 [DEBUG] org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+2018-11-22 14:03:16.029 [DEBUG] com.yy.util.SSLClient - Attempt 1 to execute request
+2018-11-22 14:03:16.029 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection - Sending request: POST /openapi/api/v2 HTTP/1.1
+2018-11-22 14:03:16.029 [DEBUG] org.apache.http.wire -  >> "POST /openapi/api/v2 HTTP/1.1[\r][\n]"
+2018-11-22 14:03:16.029 [DEBUG] org.apache.http.wire -  >> "Content-Type: application/json[\r][\n]"
+2018-11-22 14:03:16.029 [DEBUG] org.apache.http.wire -  >> "Content-Length: 14[\r][\n]"
+2018-11-22 14:03:16.029 [DEBUG] org.apache.http.wire -  >> "Content-Type: application/json[\r][\n]"
+2018-11-22 14:03:16.029 [DEBUG] org.apache.http.wire -  >> "Host: www.tuling123.com[\r][\n]"
+2018-11-22 14:03:16.029 [DEBUG] org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+2018-11-22 14:03:16.029 [DEBUG] org.apache.http.wire -  >> "User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_121)[\r][\n]"
+2018-11-22 14:03:16.029 [DEBUG] org.apache.http.wire -  >> "[\r][\n]"
+2018-11-22 14:03:16.029 [DEBUG] org.apache.http.headers - >> POST /openapi/api/v2 HTTP/1.1
+2018-11-22 14:03:16.029 [DEBUG] org.apache.http.headers - >> Content-Type: application/json
+2018-11-22 14:03:16.029 [DEBUG] org.apache.http.headers - >> Content-Length: 14
+2018-11-22 14:03:16.029 [DEBUG] org.apache.http.headers - >> Content-Type: application/json
+2018-11-22 14:03:16.029 [DEBUG] org.apache.http.headers - >> Host: www.tuling123.com
+2018-11-22 14:03:16.029 [DEBUG] org.apache.http.headers - >> Connection: Keep-Alive
+2018-11-22 14:03:16.029 [DEBUG] org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_121)
+2018-11-22 14:03:16.029 [DEBUG] org.apache.http.wire -  >> "{'key':'???5'}"
+2018-11-22 14:03:16.087 [DEBUG] org.apache.http.wire -  << "HTTP/1.1 500 Internal Server Error[\r][\n]"
+2018-11-22 14:03:16.087 [DEBUG] org.apache.http.wire -  << "Date: Thu, 22 Nov 2018 06:03:16 GMT[\r][\n]"
+2018-11-22 14:03:16.087 [DEBUG] org.apache.http.wire -  << "Content-Type: text/html; charset=UTF-8[\r][\n]"
+2018-11-22 14:03:16.087 [DEBUG] org.apache.http.wire -  << "Content-Length: 193[\r][\n]"
+2018-11-22 14:03:16.087 [DEBUG] org.apache.http.wire -  << "Connection: keep-alive[\r][\n]"
+2018-11-22 14:03:16.087 [DEBUG] org.apache.http.wire -  << "[\r][\n]"
+2018-11-22 14:03:16.087 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 500 Internal Server Error
+2018-11-22 14:03:16.087 [DEBUG] org.apache.http.headers - << HTTP/1.1 500 Internal Server Error
+2018-11-22 14:03:16.087 [DEBUG] org.apache.http.headers - << Date: Thu, 22 Nov 2018 06:03:16 GMT
+2018-11-22 14:03:16.087 [DEBUG] org.apache.http.headers - << Content-Type: text/html; charset=UTF-8
+2018-11-22 14:03:16.087 [DEBUG] org.apache.http.headers - << Content-Length: 193
+2018-11-22 14:03:16.087 [DEBUG] org.apache.http.headers - << Connection: keep-alive
+2018-11-22 14:03:16.087 [DEBUG] com.yy.util.SSLClient - Connection can be kept alive indefinitely
+2018-11-22 14:03:16.087 [DEBUG] org.apache.http.wire -  << "<html>[\r][\n]"
+2018-11-22 14:03:16.087 [DEBUG] org.apache.http.wire -  << "<head><title>500 Internal Server Error</title></head>[\r][\n]"
+2018-11-22 14:03:16.087 [DEBUG] org.apache.http.wire -  << "<body bgcolor="white">[\r][\n]"
+2018-11-22 14:03:16.087 [DEBUG] org.apache.http.wire -  << "<center><h1>500 Internal Server Error</h1></center>[\r][\n]"
+2018-11-22 14:03:16.087 [DEBUG] org.apache.http.wire -  << "<hr><center>nginx/1.11.5</center>[\r][\n]"
+2018-11-22 14:03:16.087 [DEBUG] org.apache.http.wire -  << "</body>[\r][\n]"
+2018-11-22 14:03:16.087 [DEBUG] org.apache.http.wire -  << "</html>[\r][\n]"
+2018-11-22 14:03:16.087 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@431cd9b2
+2018-11-22 14:03:16.087 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager - Connection can be kept alive indefinitely
+2018-11-22 14:03:16.091 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:1423<->39.107.192.176:80 closed
+2018-11-22 14:03:16.099 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {}->http://www.tuling123.com:80
+2018-11-22 14:03:16.099 [DEBUG] org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to www.tuling123.com:80
+2018-11-22 14:03:16.150 [DEBUG] org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+2018-11-22 14:03:16.150 [DEBUG] org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+2018-11-22 14:03:16.150 [DEBUG] org.apache.http.client.protocol.RequestTargetAuthentication - Target auth state: UNCHALLENGED
+2018-11-22 14:03:16.150 [DEBUG] org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+2018-11-22 14:03:16.150 [DEBUG] com.yy.util.SSLClient - Attempt 1 to execute request
+2018-11-22 14:03:16.150 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection - Sending request: POST /openapi/api/v2 HTTP/1.1
+2018-11-22 14:03:16.150 [DEBUG] org.apache.http.wire -  >> "POST /openapi/api/v2 HTTP/1.1[\r][\n]"
+2018-11-22 14:03:16.150 [DEBUG] org.apache.http.wire -  >> "Content-Type: application/json[\r][\n]"
+2018-11-22 14:03:16.150 [DEBUG] org.apache.http.wire -  >> "Content-Length: 14[\r][\n]"
+2018-11-22 14:03:16.150 [DEBUG] org.apache.http.wire -  >> "Content-Type: application/json[\r][\n]"
+2018-11-22 14:03:16.150 [DEBUG] org.apache.http.wire -  >> "Host: www.tuling123.com[\r][\n]"
+2018-11-22 14:03:16.150 [DEBUG] org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+2018-11-22 14:03:16.150 [DEBUG] org.apache.http.wire -  >> "User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_121)[\r][\n]"
+2018-11-22 14:03:16.150 [DEBUG] org.apache.http.wire -  >> "[\r][\n]"
+2018-11-22 14:03:16.150 [DEBUG] org.apache.http.headers - >> POST /openapi/api/v2 HTTP/1.1
+2018-11-22 14:03:16.150 [DEBUG] org.apache.http.headers - >> Content-Type: application/json
+2018-11-22 14:03:16.150 [DEBUG] org.apache.http.headers - >> Content-Length: 14
+2018-11-22 14:03:16.150 [DEBUG] org.apache.http.headers - >> Content-Type: application/json
+2018-11-22 14:03:16.150 [DEBUG] org.apache.http.headers - >> Host: www.tuling123.com
+2018-11-22 14:03:16.150 [DEBUG] org.apache.http.headers - >> Connection: Keep-Alive
+2018-11-22 14:03:16.150 [DEBUG] org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_121)
+2018-11-22 14:03:16.150 [DEBUG] org.apache.http.wire -  >> "{'key':'???6'}"
+2018-11-22 14:03:16.204 [DEBUG] org.apache.http.wire -  << "HTTP/1.1 500 Internal Server Error[\r][\n]"
+2018-11-22 14:03:16.204 [DEBUG] org.apache.http.wire -  << "Date: Thu, 22 Nov 2018 06:03:17 GMT[\r][\n]"
+2018-11-22 14:03:16.204 [DEBUG] org.apache.http.wire -  << "Content-Type: text/html; charset=UTF-8[\r][\n]"
+2018-11-22 14:03:16.204 [DEBUG] org.apache.http.wire -  << "Content-Length: 193[\r][\n]"
+2018-11-22 14:03:16.204 [DEBUG] org.apache.http.wire -  << "Connection: keep-alive[\r][\n]"
+2018-11-22 14:03:16.204 [DEBUG] org.apache.http.wire -  << "[\r][\n]"
+2018-11-22 14:03:16.204 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 500 Internal Server Error
+2018-11-22 14:03:16.204 [DEBUG] org.apache.http.headers - << HTTP/1.1 500 Internal Server Error
+2018-11-22 14:03:16.204 [DEBUG] org.apache.http.headers - << Date: Thu, 22 Nov 2018 06:03:17 GMT
+2018-11-22 14:03:16.204 [DEBUG] org.apache.http.headers - << Content-Type: text/html; charset=UTF-8
+2018-11-22 14:03:16.204 [DEBUG] org.apache.http.headers - << Content-Length: 193
+2018-11-22 14:03:16.204 [DEBUG] org.apache.http.headers - << Connection: keep-alive
+2018-11-22 14:03:16.204 [DEBUG] com.yy.util.SSLClient - Connection can be kept alive indefinitely
+2018-11-22 14:03:16.204 [DEBUG] org.apache.http.wire -  << "<html>[\r][\n]"
+2018-11-22 14:03:16.204 [DEBUG] org.apache.http.wire -  << "<head><title>500 Internal Server Error</title></head>[\r][\n]"
+2018-11-22 14:03:16.204 [DEBUG] org.apache.http.wire -  << "<body bgcolor="white">[\r][\n]"
+2018-11-22 14:03:16.208 [DEBUG] org.apache.http.wire -  << "<center><h1>500 Internal Server Error</h1></center>[\r][\n]"
+2018-11-22 14:03:16.208 [DEBUG] org.apache.http.wire -  << "<hr><center>nginx/1.11.5</center>[\r][\n]"
+2018-11-22 14:03:16.208 [DEBUG] org.apache.http.wire -  << "</body>[\r][\n]"
+2018-11-22 14:03:16.208 [DEBUG] org.apache.http.wire -  << "</html>[\r][\n]"
+2018-11-22 14:03:16.208 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@5c7933ad
+2018-11-22 14:03:16.208 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager - Connection can be kept alive indefinitely
+2018-11-22 14:03:16.208 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:1424<->39.107.192.176:80 closed
+2018-11-22 14:03:16.220 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {}->http://www.tuling123.com:80
+2018-11-22 14:03:16.220 [DEBUG] org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to www.tuling123.com:80
+2018-11-22 14:03:16.267 [DEBUG] org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+2018-11-22 14:03:16.267 [DEBUG] org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+2018-11-22 14:03:16.267 [DEBUG] org.apache.http.client.protocol.RequestTargetAuthentication - Target auth state: UNCHALLENGED
+2018-11-22 14:03:16.267 [DEBUG] org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+2018-11-22 14:03:16.267 [DEBUG] com.yy.util.SSLClient - Attempt 1 to execute request
+2018-11-22 14:03:16.267 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection - Sending request: POST /openapi/api/v2 HTTP/1.1
+2018-11-22 14:03:16.267 [DEBUG] org.apache.http.wire -  >> "POST /openapi/api/v2 HTTP/1.1[\r][\n]"
+2018-11-22 14:03:16.271 [DEBUG] org.apache.http.wire -  >> "Content-Type: application/json[\r][\n]"
+2018-11-22 14:03:16.271 [DEBUG] org.apache.http.wire -  >> "Content-Length: 14[\r][\n]"
+2018-11-22 14:03:16.271 [DEBUG] org.apache.http.wire -  >> "Content-Type: application/json[\r][\n]"
+2018-11-22 14:03:16.271 [DEBUG] org.apache.http.wire -  >> "Host: www.tuling123.com[\r][\n]"
+2018-11-22 14:03:16.271 [DEBUG] org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+2018-11-22 14:03:16.271 [DEBUG] org.apache.http.wire -  >> "User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_121)[\r][\n]"
+2018-11-22 14:03:16.271 [DEBUG] org.apache.http.wire -  >> "[\r][\n]"
+2018-11-22 14:03:16.271 [DEBUG] org.apache.http.headers - >> POST /openapi/api/v2 HTTP/1.1
+2018-11-22 14:03:16.271 [DEBUG] org.apache.http.headers - >> Content-Type: application/json
+2018-11-22 14:03:16.271 [DEBUG] org.apache.http.headers - >> Content-Length: 14
+2018-11-22 14:03:16.271 [DEBUG] org.apache.http.headers - >> Content-Type: application/json
+2018-11-22 14:03:16.271 [DEBUG] org.apache.http.headers - >> Host: www.tuling123.com
+2018-11-22 14:03:16.271 [DEBUG] org.apache.http.headers - >> Connection: Keep-Alive
+2018-11-22 14:03:16.271 [DEBUG] org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_121)
+2018-11-22 14:03:16.271 [DEBUG] org.apache.http.wire -  >> "{'key':'???7'}"
+2018-11-22 14:03:16.321 [DEBUG] org.apache.http.wire -  << "HTTP/1.1 500 Internal Server Error[\r][\n]"
+2018-11-22 14:03:16.321 [DEBUG] org.apache.http.wire -  << "Date: Thu, 22 Nov 2018 06:03:17 GMT[\r][\n]"
+2018-11-22 14:03:16.321 [DEBUG] org.apache.http.wire -  << "Content-Type: text/html; charset=UTF-8[\r][\n]"
+2018-11-22 14:03:16.321 [DEBUG] org.apache.http.wire -  << "Content-Length: 193[\r][\n]"
+2018-11-22 14:03:16.321 [DEBUG] org.apache.http.wire -  << "Connection: keep-alive[\r][\n]"
+2018-11-22 14:03:16.321 [DEBUG] org.apache.http.wire -  << "[\r][\n]"
+2018-11-22 14:03:16.321 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 500 Internal Server Error
+2018-11-22 14:03:16.321 [DEBUG] org.apache.http.headers - << HTTP/1.1 500 Internal Server Error
+2018-11-22 14:03:16.321 [DEBUG] org.apache.http.headers - << Date: Thu, 22 Nov 2018 06:03:17 GMT
+2018-11-22 14:03:16.321 [DEBUG] org.apache.http.headers - << Content-Type: text/html; charset=UTF-8
+2018-11-22 14:03:16.321 [DEBUG] org.apache.http.headers - << Content-Length: 193
+2018-11-22 14:03:16.325 [DEBUG] org.apache.http.headers - << Connection: keep-alive
+2018-11-22 14:03:16.325 [DEBUG] com.yy.util.SSLClient - Connection can be kept alive indefinitely
+2018-11-22 14:03:16.325 [DEBUG] org.apache.http.wire -  << "<html>[\r][\n]"
+2018-11-22 14:03:16.325 [DEBUG] org.apache.http.wire -  << "<head><title>500 Internal Server Error</title></head>[\r][\n]"
+2018-11-22 14:03:16.325 [DEBUG] org.apache.http.wire -  << "<body bgcolor="white">[\r][\n]"
+2018-11-22 14:03:16.325 [DEBUG] org.apache.http.wire -  << "<center><h1>500 Internal Server Error</h1></center>[\r][\n]"
+2018-11-22 14:03:16.325 [DEBUG] org.apache.http.wire -  << "<hr><center>nginx/1.11.5</center>[\r][\n]"
+2018-11-22 14:03:16.325 [DEBUG] org.apache.http.wire -  << "</body>[\r][\n]"
+2018-11-22 14:03:16.325 [DEBUG] org.apache.http.wire -  << "</html>[\r][\n]"
+2018-11-22 14:03:16.325 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@d554c5f
+2018-11-22 14:03:16.325 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager - Connection can be kept alive indefinitely
+2018-11-22 14:03:16.325 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:1425<->39.107.192.176:80 closed
+2018-11-22 14:03:16.333 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {}->http://www.tuling123.com:80
+2018-11-22 14:03:16.337 [DEBUG] org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to www.tuling123.com:80
+2018-11-22 14:03:16.388 [DEBUG] org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+2018-11-22 14:03:16.388 [DEBUG] org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+2018-11-22 14:03:16.388 [DEBUG] org.apache.http.client.protocol.RequestTargetAuthentication - Target auth state: UNCHALLENGED
+2018-11-22 14:03:16.388 [DEBUG] org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+2018-11-22 14:03:16.388 [DEBUG] com.yy.util.SSLClient - Attempt 1 to execute request
+2018-11-22 14:03:16.388 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection - Sending request: POST /openapi/api/v2 HTTP/1.1
+2018-11-22 14:03:16.388 [DEBUG] org.apache.http.wire -  >> "POST /openapi/api/v2 HTTP/1.1[\r][\n]"
+2018-11-22 14:03:16.388 [DEBUG] org.apache.http.wire -  >> "Content-Type: application/json[\r][\n]"
+2018-11-22 14:03:16.388 [DEBUG] org.apache.http.wire -  >> "Content-Length: 14[\r][\n]"
+2018-11-22 14:03:16.388 [DEBUG] org.apache.http.wire -  >> "Content-Type: application/json[\r][\n]"
+2018-11-22 14:03:16.388 [DEBUG] org.apache.http.wire -  >> "Host: www.tuling123.com[\r][\n]"
+2018-11-22 14:03:16.388 [DEBUG] org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+2018-11-22 14:03:16.388 [DEBUG] org.apache.http.wire -  >> "User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_121)[\r][\n]"
+2018-11-22 14:03:16.388 [DEBUG] org.apache.http.wire -  >> "[\r][\n]"
+2018-11-22 14:03:16.388 [DEBUG] org.apache.http.headers - >> POST /openapi/api/v2 HTTP/1.1
+2018-11-22 14:03:16.388 [DEBUG] org.apache.http.headers - >> Content-Type: application/json
+2018-11-22 14:03:16.388 [DEBUG] org.apache.http.headers - >> Content-Length: 14
+2018-11-22 14:03:16.388 [DEBUG] org.apache.http.headers - >> Content-Type: application/json
+2018-11-22 14:03:16.388 [DEBUG] org.apache.http.headers - >> Host: www.tuling123.com
+2018-11-22 14:03:16.392 [DEBUG] org.apache.http.headers - >> Connection: Keep-Alive
+2018-11-22 14:03:16.392 [DEBUG] org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_121)
+2018-11-22 14:03:16.392 [DEBUG] org.apache.http.wire -  >> "{'key':'???8'}"
+2018-11-22 14:03:16.443 [DEBUG] org.apache.http.wire -  << "HTTP/1.1 500 Internal Server Error[\r][\n]"
+2018-11-22 14:03:16.443 [DEBUG] org.apache.http.wire -  << "Date: Thu, 22 Nov 2018 06:03:17 GMT[\r][\n]"
+2018-11-22 14:03:16.443 [DEBUG] org.apache.http.wire -  << "Content-Type: text/html; charset=UTF-8[\r][\n]"
+2018-11-22 14:03:16.446 [DEBUG] org.apache.http.wire -  << "Content-Length: 193[\r][\n]"
+2018-11-22 14:03:16.446 [DEBUG] org.apache.http.wire -  << "Connection: keep-alive[\r][\n]"
+2018-11-22 14:03:16.446 [DEBUG] org.apache.http.wire -  << "[\r][\n]"
+2018-11-22 14:03:16.446 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 500 Internal Server Error
+2018-11-22 14:03:16.446 [DEBUG] org.apache.http.headers - << HTTP/1.1 500 Internal Server Error
+2018-11-22 14:03:16.446 [DEBUG] org.apache.http.headers - << Date: Thu, 22 Nov 2018 06:03:17 GMT
+2018-11-22 14:03:16.446 [DEBUG] org.apache.http.headers - << Content-Type: text/html; charset=UTF-8
+2018-11-22 14:03:16.446 [DEBUG] org.apache.http.headers - << Content-Length: 193
+2018-11-22 14:03:16.446 [DEBUG] org.apache.http.headers - << Connection: keep-alive
+2018-11-22 14:03:16.446 [DEBUG] com.yy.util.SSLClient - Connection can be kept alive indefinitely
+2018-11-22 14:03:16.446 [DEBUG] org.apache.http.wire -  << "<html>[\r][\n]"
+2018-11-22 14:03:16.446 [DEBUG] org.apache.http.wire -  << "<head><title>500 Internal Server Error</title></head>[\r][\n]"
+2018-11-22 14:03:16.450 [DEBUG] org.apache.http.wire -  << "<body bgcolor="white">[\r][\n]"
+2018-11-22 14:03:16.450 [DEBUG] org.apache.http.wire -  << "<center><h1>500 Internal Server Error</h1></center>[\r][\n]"
+2018-11-22 14:03:16.450 [DEBUG] org.apache.http.wire -  << "<hr><center>nginx/1.11.5</center>[\r][\n]"
+2018-11-22 14:03:16.450 [DEBUG] org.apache.http.wire -  << "</body>[\r][\n]"
+2018-11-22 14:03:16.450 [DEBUG] org.apache.http.wire -  << "</html>[\r][\n]"
+2018-11-22 14:03:16.450 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@6e2829c7
+2018-11-22 14:03:16.450 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager - Connection can be kept alive indefinitely
+2018-11-22 14:03:16.450 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:1426<->39.107.192.176:80 closed
+2018-11-22 14:03:16.474 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {}->http://www.tuling123.com:80
+2018-11-22 14:03:16.474 [DEBUG] org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to www.tuling123.com:80
+2018-11-22 14:03:16.521 [DEBUG] org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+2018-11-22 14:03:16.521 [DEBUG] org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+2018-11-22 14:03:16.521 [DEBUG] org.apache.http.client.protocol.RequestTargetAuthentication - Target auth state: UNCHALLENGED
+2018-11-22 14:03:16.521 [DEBUG] org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+2018-11-22 14:03:16.521 [DEBUG] com.yy.util.SSLClient - Attempt 1 to execute request
+2018-11-22 14:03:16.521 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection - Sending request: POST /openapi/api/v2 HTTP/1.1
+2018-11-22 14:03:16.521 [DEBUG] org.apache.http.wire -  >> "POST /openapi/api/v2 HTTP/1.1[\r][\n]"
+2018-11-22 14:03:16.521 [DEBUG] org.apache.http.wire -  >> "Content-Type: application/json[\r][\n]"
+2018-11-22 14:03:16.525 [DEBUG] org.apache.http.wire -  >> "Content-Length: 14[\r][\n]"
+2018-11-22 14:03:16.525 [DEBUG] org.apache.http.wire -  >> "Content-Type: application/json[\r][\n]"
+2018-11-22 14:03:16.525 [DEBUG] org.apache.http.wire -  >> "Host: www.tuling123.com[\r][\n]"
+2018-11-22 14:03:16.525 [DEBUG] org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+2018-11-22 14:03:16.525 [DEBUG] org.apache.http.wire -  >> "User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_121)[\r][\n]"
+2018-11-22 14:03:16.525 [DEBUG] org.apache.http.wire -  >> "[\r][\n]"
+2018-11-22 14:03:16.525 [DEBUG] org.apache.http.headers - >> POST /openapi/api/v2 HTTP/1.1
+2018-11-22 14:03:16.525 [DEBUG] org.apache.http.headers - >> Content-Type: application/json
+2018-11-22 14:03:16.525 [DEBUG] org.apache.http.headers - >> Content-Length: 14
+2018-11-22 14:03:16.525 [DEBUG] org.apache.http.headers - >> Content-Type: application/json
+2018-11-22 14:03:16.525 [DEBUG] org.apache.http.headers - >> Host: www.tuling123.com
+2018-11-22 14:03:16.525 [DEBUG] org.apache.http.headers - >> Connection: Keep-Alive
+2018-11-22 14:03:16.525 [DEBUG] org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_121)
+2018-11-22 14:03:16.525 [DEBUG] org.apache.http.wire -  >> "{'key':'???9'}"
+2018-11-22 14:03:16.571 [DEBUG] org.apache.http.wire -  << "HTTP/1.1 500 Internal Server Error[\r][\n]"
+2018-11-22 14:03:16.571 [DEBUG] org.apache.http.wire -  << "Date: Thu, 22 Nov 2018 06:03:17 GMT[\r][\n]"
+2018-11-22 14:03:16.571 [DEBUG] org.apache.http.wire -  << "Content-Type: text/html; charset=UTF-8[\r][\n]"
+2018-11-22 14:03:16.571 [DEBUG] org.apache.http.wire -  << "Content-Length: 193[\r][\n]"
+2018-11-22 14:03:16.575 [DEBUG] org.apache.http.wire -  << "Connection: keep-alive[\r][\n]"
+2018-11-22 14:03:16.575 [DEBUG] org.apache.http.wire -  << "[\r][\n]"
+2018-11-22 14:03:16.575 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 500 Internal Server Error
+2018-11-22 14:03:16.575 [DEBUG] org.apache.http.headers - << HTTP/1.1 500 Internal Server Error
+2018-11-22 14:03:16.575 [DEBUG] org.apache.http.headers - << Date: Thu, 22 Nov 2018 06:03:17 GMT
+2018-11-22 14:03:16.575 [DEBUG] org.apache.http.headers - << Content-Type: text/html; charset=UTF-8
+2018-11-22 14:03:16.575 [DEBUG] org.apache.http.headers - << Content-Length: 193
+2018-11-22 14:03:16.575 [DEBUG] org.apache.http.headers - << Connection: keep-alive
+2018-11-22 14:03:16.575 [DEBUG] com.yy.util.SSLClient - Connection can be kept alive indefinitely
+2018-11-22 14:03:16.575 [DEBUG] org.apache.http.wire -  << "<html>[\r][\n]"
+2018-11-22 14:03:16.575 [DEBUG] org.apache.http.wire -  << "<head><title>500 Internal Server Error</title></head>[\r][\n]"
+2018-11-22 14:03:16.575 [DEBUG] org.apache.http.wire -  << "<body bgcolor="white">[\r][\n]"
+2018-11-22 14:03:16.575 [DEBUG] org.apache.http.wire -  << "<center><h1>500 Internal Server Error</h1></center>[\r][\n]"
+2018-11-22 14:03:16.575 [DEBUG] org.apache.http.wire -  << "<hr><center>nginx/1.11.5</center>[\r][\n]"
+2018-11-22 14:03:16.575 [DEBUG] org.apache.http.wire -  << "</body>[\r][\n]"
+2018-11-22 14:03:16.575 [DEBUG] org.apache.http.wire -  << "</html>[\r][\n]"
+2018-11-22 14:03:16.575 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@333d4a8c
+2018-11-22 14:03:16.575 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager - Connection can be kept alive indefinitely
+2018-11-22 14:03:16.579 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:1427<->39.107.192.176:80 closed
+2018-11-22 14:03:16.603 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {}->http://www.tuling123.com:80
+2018-11-22 14:03:16.603 [DEBUG] org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to www.tuling123.com:80
+2018-11-22 14:03:16.653 [DEBUG] org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+2018-11-22 14:03:16.653 [DEBUG] org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+2018-11-22 14:03:16.653 [DEBUG] org.apache.http.client.protocol.RequestTargetAuthentication - Target auth state: UNCHALLENGED
+2018-11-22 14:03:16.653 [DEBUG] org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+2018-11-22 14:03:16.653 [DEBUG] com.yy.util.SSLClient - Attempt 1 to execute request
+2018-11-22 14:03:16.653 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection - Sending request: POST /openapi/api/v2 HTTP/1.1
+2018-11-22 14:03:16.653 [DEBUG] org.apache.http.wire -  >> "POST /openapi/api/v2 HTTP/1.1[\r][\n]"
+2018-11-22 14:03:16.653 [DEBUG] org.apache.http.wire -  >> "Content-Type: application/json[\r][\n]"
+2018-11-22 14:03:16.653 [DEBUG] org.apache.http.wire -  >> "Content-Length: 15[\r][\n]"
+2018-11-22 14:03:16.653 [DEBUG] org.apache.http.wire -  >> "Content-Type: application/json[\r][\n]"
+2018-11-22 14:03:16.653 [DEBUG] org.apache.http.wire -  >> "Host: www.tuling123.com[\r][\n]"
+2018-11-22 14:03:16.653 [DEBUG] org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+2018-11-22 14:03:16.653 [DEBUG] org.apache.http.wire -  >> "User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_121)[\r][\n]"
+2018-11-22 14:03:16.653 [DEBUG] org.apache.http.wire -  >> "[\r][\n]"
+2018-11-22 14:03:16.653 [DEBUG] org.apache.http.headers - >> POST /openapi/api/v2 HTTP/1.1
+2018-11-22 14:03:16.653 [DEBUG] org.apache.http.headers - >> Content-Type: application/json
+2018-11-22 14:03:16.653 [DEBUG] org.apache.http.headers - >> Content-Length: 15
+2018-11-22 14:03:16.653 [DEBUG] org.apache.http.headers - >> Content-Type: application/json
+2018-11-22 14:03:16.653 [DEBUG] org.apache.http.headers - >> Host: www.tuling123.com
+2018-11-22 14:03:16.653 [DEBUG] org.apache.http.headers - >> Connection: Keep-Alive
+2018-11-22 14:03:16.653 [DEBUG] org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_121)
+2018-11-22 14:03:16.653 [DEBUG] org.apache.http.wire -  >> "{'key':'???10'}"
+2018-11-22 14:03:16.708 [DEBUG] org.apache.http.wire -  << "HTTP/1.1 500 Internal Server Error[\r][\n]"
+2018-11-22 14:03:16.708 [DEBUG] org.apache.http.wire -  << "Date: Thu, 22 Nov 2018 06:03:17 GMT[\r][\n]"
+2018-11-22 14:03:16.708 [DEBUG] org.apache.http.wire -  << "Content-Type: text/html; charset=UTF-8[\r][\n]"
+2018-11-22 14:03:16.708 [DEBUG] org.apache.http.wire -  << "Content-Length: 193[\r][\n]"
+2018-11-22 14:03:16.708 [DEBUG] org.apache.http.wire -  << "Connection: keep-alive[\r][\n]"
+2018-11-22 14:03:16.708 [DEBUG] org.apache.http.wire -  << "[\r][\n]"
+2018-11-22 14:03:16.708 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 500 Internal Server Error
+2018-11-22 14:03:16.708 [DEBUG] org.apache.http.headers - << HTTP/1.1 500 Internal Server Error
+2018-11-22 14:03:16.708 [DEBUG] org.apache.http.headers - << Date: Thu, 22 Nov 2018 06:03:17 GMT
+2018-11-22 14:03:16.712 [DEBUG] org.apache.http.headers - << Content-Type: text/html; charset=UTF-8
+2018-11-22 14:03:16.712 [DEBUG] org.apache.http.headers - << Content-Length: 193
+2018-11-22 14:03:16.712 [DEBUG] org.apache.http.headers - << Connection: keep-alive
+2018-11-22 14:03:16.712 [DEBUG] com.yy.util.SSLClient - Connection can be kept alive indefinitely
+2018-11-22 14:03:16.712 [DEBUG] org.apache.http.wire -  << "<html>[\r][\n]"
+2018-11-22 14:03:16.712 [DEBUG] org.apache.http.wire -  << "<head><title>500 Internal Server Error</title></head>[\r][\n]"
+2018-11-22 14:03:16.712 [DEBUG] org.apache.http.wire -  << "<body bgcolor="white">[\r][\n]"
+2018-11-22 14:03:16.712 [DEBUG] org.apache.http.wire -  << "<center><h1>500 Internal Server Error</h1></center>[\r][\n]"
+2018-11-22 14:03:16.712 [DEBUG] org.apache.http.wire -  << "<hr><center>nginx/1.11.5</center>[\r][\n]"
+2018-11-22 14:03:16.712 [DEBUG] org.apache.http.wire -  << "</body>[\r][\n]"
+2018-11-22 14:03:16.712 [DEBUG] org.apache.http.wire -  << "</html>[\r][\n]"
+2018-11-22 14:03:16.712 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@69c81773
+2018-11-22 14:03:16.712 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager - Connection can be kept alive indefinitely
+2018-11-22 14:03:16.712 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:1428<->39.107.192.176:80 closed
+2018-11-22 14:03:16.735 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {}->http://www.tuling123.com:80
+2018-11-22 14:03:16.736 [DEBUG] org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to www.tuling123.com:80
+2018-11-22 14:03:16.778 [DEBUG] org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+2018-11-22 14:03:16.778 [DEBUG] org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+2018-11-22 14:03:16.778 [DEBUG] org.apache.http.client.protocol.RequestTargetAuthentication - Target auth state: UNCHALLENGED
+2018-11-22 14:03:16.778 [DEBUG] org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+2018-11-22 14:03:16.778 [DEBUG] com.yy.util.SSLClient - Attempt 1 to execute request
+2018-11-22 14:03:16.778 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection - Sending request: POST /openapi/api/v2 HTTP/1.1
+2018-11-22 14:03:16.778 [DEBUG] org.apache.http.wire -  >> "POST /openapi/api/v2 HTTP/1.1[\r][\n]"
+2018-11-22 14:03:16.778 [DEBUG] org.apache.http.wire -  >> "Content-Type: application/json[\r][\n]"
+2018-11-22 14:03:16.778 [DEBUG] org.apache.http.wire -  >> "Content-Length: 15[\r][\n]"
+2018-11-22 14:03:16.778 [DEBUG] org.apache.http.wire -  >> "Content-Type: application/json[\r][\n]"
+2018-11-22 14:03:16.778 [DEBUG] org.apache.http.wire -  >> "Host: www.tuling123.com[\r][\n]"
+2018-11-22 14:03:16.778 [DEBUG] org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+2018-11-22 14:03:16.778 [DEBUG] org.apache.http.wire -  >> "User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_121)[\r][\n]"
+2018-11-22 14:03:16.778 [DEBUG] org.apache.http.wire -  >> "[\r][\n]"
+2018-11-22 14:03:16.778 [DEBUG] org.apache.http.headers - >> POST /openapi/api/v2 HTTP/1.1
+2018-11-22 14:03:16.778 [DEBUG] org.apache.http.headers - >> Content-Type: application/json
+2018-11-22 14:03:16.778 [DEBUG] org.apache.http.headers - >> Content-Length: 15
+2018-11-22 14:03:16.778 [DEBUG] org.apache.http.headers - >> Content-Type: application/json
+2018-11-22 14:03:16.778 [DEBUG] org.apache.http.headers - >> Host: www.tuling123.com
+2018-11-22 14:03:16.778 [DEBUG] org.apache.http.headers - >> Connection: Keep-Alive
+2018-11-22 14:03:16.778 [DEBUG] org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_121)
+2018-11-22 14:03:16.778 [DEBUG] org.apache.http.wire -  >> "{'key':'???11'}"
+2018-11-22 14:03:16.825 [DEBUG] org.apache.http.wire -  << "HTTP/1.1 500 Internal Server Error[\r][\n]"
+2018-11-22 14:03:16.825 [DEBUG] org.apache.http.wire -  << "Date: Thu, 22 Nov 2018 06:03:17 GMT[\r][\n]"
+2018-11-22 14:03:16.825 [DEBUG] org.apache.http.wire -  << "Content-Type: text/html; charset=UTF-8[\r][\n]"
+2018-11-22 14:03:16.825 [DEBUG] org.apache.http.wire -  << "Content-Length: 193[\r][\n]"
+2018-11-22 14:03:16.825 [DEBUG] org.apache.http.wire -  << "Connection: keep-alive[\r][\n]"
+2018-11-22 14:03:16.825 [DEBUG] org.apache.http.wire -  << "[\r][\n]"
+2018-11-22 14:03:16.825 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 500 Internal Server Error
+2018-11-22 14:03:16.825 [DEBUG] org.apache.http.headers - << HTTP/1.1 500 Internal Server Error
+2018-11-22 14:03:16.825 [DEBUG] org.apache.http.headers - << Date: Thu, 22 Nov 2018 06:03:17 GMT
+2018-11-22 14:03:16.825 [DEBUG] org.apache.http.headers - << Content-Type: text/html; charset=UTF-8
+2018-11-22 14:03:16.829 [DEBUG] org.apache.http.headers - << Content-Length: 193
+2018-11-22 14:03:16.829 [DEBUG] org.apache.http.headers - << Connection: keep-alive
+2018-11-22 14:03:16.829 [DEBUG] com.yy.util.SSLClient - Connection can be kept alive indefinitely
+2018-11-22 14:03:16.829 [DEBUG] org.apache.http.wire -  << "<html>[\r][\n]"
+2018-11-22 14:03:16.829 [DEBUG] org.apache.http.wire -  << "<head><title>500 Internal Server Error</title></head>[\r][\n]"
+2018-11-22 14:03:16.829 [DEBUG] org.apache.http.wire -  << "<body bgcolor="white">[\r][\n]"
+2018-11-22 14:03:16.829 [DEBUG] org.apache.http.wire -  << "<center><h1>500 Internal Server Error</h1></center>[\r][\n]"
+2018-11-22 14:03:16.829 [DEBUG] org.apache.http.wire -  << "<hr><center>nginx/1.11.5</center>[\r][\n]"
+2018-11-22 14:03:16.829 [DEBUG] org.apache.http.wire -  << "</body>[\r][\n]"
+2018-11-22 14:03:16.829 [DEBUG] org.apache.http.wire -  << "</html>[\r][\n]"
+2018-11-22 14:03:16.829 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@25df00a0
+2018-11-22 14:03:16.829 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager - Connection can be kept alive indefinitely
+2018-11-22 14:03:16.829 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:1429<->39.107.192.176:80 closed
+2018-11-22 14:03:16.836 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {}->http://www.tuling123.com:80
+2018-11-22 14:03:16.840 [DEBUG] org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to www.tuling123.com:80
+2018-11-22 14:03:16.887 [DEBUG] org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+2018-11-22 14:03:16.887 [DEBUG] org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+2018-11-22 14:03:16.887 [DEBUG] org.apache.http.client.protocol.RequestTargetAuthentication - Target auth state: UNCHALLENGED
+2018-11-22 14:03:16.887 [DEBUG] org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+2018-11-22 14:03:16.887 [DEBUG] com.yy.util.SSLClient - Attempt 1 to execute request
+2018-11-22 14:03:16.887 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection - Sending request: POST /openapi/api/v2 HTTP/1.1
+2018-11-22 14:03:16.887 [DEBUG] org.apache.http.wire -  >> "POST /openapi/api/v2 HTTP/1.1[\r][\n]"
+2018-11-22 14:03:16.887 [DEBUG] org.apache.http.wire -  >> "Content-Type: application/json[\r][\n]"
+2018-11-22 14:03:16.887 [DEBUG] org.apache.http.wire -  >> "Content-Length: 15[\r][\n]"
+2018-11-22 14:03:16.887 [DEBUG] org.apache.http.wire -  >> "Content-Type: application/json[\r][\n]"
+2018-11-22 14:03:16.891 [DEBUG] org.apache.http.wire -  >> "Host: www.tuling123.com[\r][\n]"
+2018-11-22 14:03:16.891 [DEBUG] org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+2018-11-22 14:03:16.891 [DEBUG] org.apache.http.wire -  >> "User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_121)[\r][\n]"
+2018-11-22 14:03:16.891 [DEBUG] org.apache.http.wire -  >> "[\r][\n]"
+2018-11-22 14:03:16.891 [DEBUG] org.apache.http.headers - >> POST /openapi/api/v2 HTTP/1.1
+2018-11-22 14:03:16.891 [DEBUG] org.apache.http.headers - >> Content-Type: application/json
+2018-11-22 14:03:16.891 [DEBUG] org.apache.http.headers - >> Content-Length: 15
+2018-11-22 14:03:16.891 [DEBUG] org.apache.http.headers - >> Content-Type: application/json
+2018-11-22 14:03:16.891 [DEBUG] org.apache.http.headers - >> Host: www.tuling123.com
+2018-11-22 14:03:16.891 [DEBUG] org.apache.http.headers - >> Connection: Keep-Alive
+2018-11-22 14:03:16.891 [DEBUG] org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_121)
+2018-11-22 14:03:16.891 [DEBUG] org.apache.http.wire -  >> "{'key':'???12'}"
+2018-11-22 14:03:16.938 [DEBUG] org.apache.http.wire -  << "HTTP/1.1 500 Internal Server Error[\r][\n]"
+2018-11-22 14:03:16.942 [DEBUG] org.apache.http.wire -  << "Date: Thu, 22 Nov 2018 06:03:17 GMT[\r][\n]"
+2018-11-22 14:03:16.942 [DEBUG] org.apache.http.wire -  << "Content-Type: text/html; charset=UTF-8[\r][\n]"
+2018-11-22 14:03:16.942 [DEBUG] org.apache.http.wire -  << "Content-Length: 193[\r][\n]"
+2018-11-22 14:03:16.942 [DEBUG] org.apache.http.wire -  << "Connection: keep-alive[\r][\n]"
+2018-11-22 14:03:16.942 [DEBUG] org.apache.http.wire -  << "[\r][\n]"
+2018-11-22 14:03:16.942 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 500 Internal Server Error
+2018-11-22 14:03:16.942 [DEBUG] org.apache.http.headers - << HTTP/1.1 500 Internal Server Error
+2018-11-22 14:03:16.942 [DEBUG] org.apache.http.headers - << Date: Thu, 22 Nov 2018 06:03:17 GMT
+2018-11-22 14:03:16.942 [DEBUG] org.apache.http.headers - << Content-Type: text/html; charset=UTF-8
+2018-11-22 14:03:16.942 [DEBUG] org.apache.http.headers - << Content-Length: 193
+2018-11-22 14:03:16.942 [DEBUG] org.apache.http.headers - << Connection: keep-alive
+2018-11-22 14:03:16.942 [DEBUG] com.yy.util.SSLClient - Connection can be kept alive indefinitely
+2018-11-22 14:03:16.942 [DEBUG] org.apache.http.wire -  << "<html>[\r][\n]"
+2018-11-22 14:03:16.942 [DEBUG] org.apache.http.wire -  << "<head><title>500 Internal Server Error</title></head>[\r][\n]"
+2018-11-22 14:03:16.942 [DEBUG] org.apache.http.wire -  << "<body bgcolor="white">[\r][\n]"
+2018-11-22 14:03:16.942 [DEBUG] org.apache.http.wire -  << "<center><h1>500 Internal Server Error</h1></center>[\r][\n]"
+2018-11-22 14:03:16.942 [DEBUG] org.apache.http.wire -  << "<hr><center>nginx/1.11.5</center>[\r][\n]"
+2018-11-22 14:03:16.942 [DEBUG] org.apache.http.wire -  << "</body>[\r][\n]"
+2018-11-22 14:03:16.942 [DEBUG] org.apache.http.wire -  << "</html>[\r][\n]"
+2018-11-22 14:03:16.942 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@50378a4
+2018-11-22 14:03:16.942 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager - Connection can be kept alive indefinitely
+2018-11-22 14:03:16.942 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:1430<->39.107.192.176:80 closed
+2018-11-22 14:03:16.957 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {}->http://www.tuling123.com:80
+2018-11-22 14:03:16.957 [DEBUG] org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to www.tuling123.com:80
+2018-11-22 14:03:17.000 [DEBUG] org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+2018-11-22 14:03:17.000 [DEBUG] org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+2018-11-22 14:03:17.000 [DEBUG] org.apache.http.client.protocol.RequestTargetAuthentication - Target auth state: UNCHALLENGED
+2018-11-22 14:03:17.000 [DEBUG] org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+2018-11-22 14:03:17.004 [DEBUG] com.yy.util.SSLClient - Attempt 1 to execute request
+2018-11-22 14:03:17.004 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection - Sending request: POST /openapi/api/v2 HTTP/1.1
+2018-11-22 14:03:17.004 [DEBUG] org.apache.http.wire -  >> "POST /openapi/api/v2 HTTP/1.1[\r][\n]"
+2018-11-22 14:03:17.004 [DEBUG] org.apache.http.wire -  >> "Content-Type: application/json[\r][\n]"
+2018-11-22 14:03:17.004 [DEBUG] org.apache.http.wire -  >> "Content-Length: 15[\r][\n]"
+2018-11-22 14:03:17.004 [DEBUG] org.apache.http.wire -  >> "Content-Type: application/json[\r][\n]"
+2018-11-22 14:03:17.004 [DEBUG] org.apache.http.wire -  >> "Host: www.tuling123.com[\r][\n]"
+2018-11-22 14:03:17.004 [DEBUG] org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+2018-11-22 14:03:17.004 [DEBUG] org.apache.http.wire -  >> "User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_121)[\r][\n]"
+2018-11-22 14:03:17.004 [DEBUG] org.apache.http.wire -  >> "[\r][\n]"
+2018-11-22 14:03:17.004 [DEBUG] org.apache.http.headers - >> POST /openapi/api/v2 HTTP/1.1
+2018-11-22 14:03:17.004 [DEBUG] org.apache.http.headers - >> Content-Type: application/json
+2018-11-22 14:03:17.004 [DEBUG] org.apache.http.headers - >> Content-Length: 15
+2018-11-22 14:03:17.004 [DEBUG] org.apache.http.headers - >> Content-Type: application/json
+2018-11-22 14:03:17.004 [DEBUG] org.apache.http.headers - >> Host: www.tuling123.com
+2018-11-22 14:03:17.004 [DEBUG] org.apache.http.headers - >> Connection: Keep-Alive
+2018-11-22 14:03:17.004 [DEBUG] org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_121)
+2018-11-22 14:03:17.004 [DEBUG] org.apache.http.wire -  >> "{'key':'???13'}"
+2018-11-22 14:03:17.055 [DEBUG] org.apache.http.wire -  << "HTTP/1.1 500 Internal Server Error[\r][\n]"
+2018-11-22 14:03:17.055 [DEBUG] org.apache.http.wire -  << "Date: Thu, 22 Nov 2018 06:03:17 GMT[\r][\n]"
+2018-11-22 14:03:17.055 [DEBUG] org.apache.http.wire -  << "Content-Type: text/html; charset=UTF-8[\r][\n]"
+2018-11-22 14:03:17.055 [DEBUG] org.apache.http.wire -  << "Content-Length: 193[\r][\n]"
+2018-11-22 14:03:17.055 [DEBUG] org.apache.http.wire -  << "Connection: keep-alive[\r][\n]"
+2018-11-22 14:03:17.055 [DEBUG] org.apache.http.wire -  << "[\r][\n]"
+2018-11-22 14:03:17.055 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 500 Internal Server Error
+2018-11-22 14:03:17.055 [DEBUG] org.apache.http.headers - << HTTP/1.1 500 Internal Server Error
+2018-11-22 14:03:17.055 [DEBUG] org.apache.http.headers - << Date: Thu, 22 Nov 2018 06:03:17 GMT
+2018-11-22 14:03:17.055 [DEBUG] org.apache.http.headers - << Content-Type: text/html; charset=UTF-8
+2018-11-22 14:03:17.055 [DEBUG] org.apache.http.headers - << Content-Length: 193
+2018-11-22 14:03:17.055 [DEBUG] org.apache.http.headers - << Connection: keep-alive
+2018-11-22 14:03:17.055 [DEBUG] com.yy.util.SSLClient - Connection can be kept alive indefinitely
+2018-11-22 14:03:17.055 [DEBUG] org.apache.http.wire -  << "<html>[\r][\n]"
+2018-11-22 14:03:17.055 [DEBUG] org.apache.http.wire -  << "<head><title>500 Internal Server Error</title></head>[\r][\n]"
+2018-11-22 14:03:17.055 [DEBUG] org.apache.http.wire -  << "<body bgcolor="white">[\r][\n]"
+2018-11-22 14:03:17.055 [DEBUG] org.apache.http.wire -  << "<center><h1>500 Internal Server Error</h1></center>[\r][\n]"
+2018-11-22 14:03:17.055 [DEBUG] org.apache.http.wire -  << "<hr><center>nginx/1.11.5</center>[\r][\n]"
+2018-11-22 14:03:17.055 [DEBUG] org.apache.http.wire -  << "</body>[\r][\n]"
+2018-11-22 14:03:17.055 [DEBUG] org.apache.http.wire -  << "</html>[\r][\n]"
+2018-11-22 14:03:17.055 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@1a4927d6
+2018-11-22 14:03:17.055 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager - Connection can be kept alive indefinitely
+2018-11-22 14:03:17.055 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:1431<->39.107.192.176:80 closed
+2018-11-22 14:03:17.067 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {}->http://www.tuling123.com:80
+2018-11-22 14:03:17.067 [DEBUG] org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to www.tuling123.com:80
+2018-11-22 14:03:17.118 [DEBUG] org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+2018-11-22 14:03:17.118 [DEBUG] org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+2018-11-22 14:03:17.118 [DEBUG] org.apache.http.client.protocol.RequestTargetAuthentication - Target auth state: UNCHALLENGED
+2018-11-22 14:03:17.118 [DEBUG] org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+2018-11-22 14:03:17.118 [DEBUG] com.yy.util.SSLClient - Attempt 1 to execute request
+2018-11-22 14:03:17.118 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection - Sending request: POST /openapi/api/v2 HTTP/1.1
+2018-11-22 14:03:17.118 [DEBUG] org.apache.http.wire -  >> "POST /openapi/api/v2 HTTP/1.1[\r][\n]"
+2018-11-22 14:03:17.122 [DEBUG] org.apache.http.wire -  >> "Content-Type: application/json[\r][\n]"
+2018-11-22 14:03:17.122 [DEBUG] org.apache.http.wire -  >> "Content-Length: 15[\r][\n]"
+2018-11-22 14:03:17.122 [DEBUG] org.apache.http.wire -  >> "Content-Type: application/json[\r][\n]"
+2018-11-22 14:03:17.122 [DEBUG] org.apache.http.wire -  >> "Host: www.tuling123.com[\r][\n]"
+2018-11-22 14:03:17.122 [DEBUG] org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+2018-11-22 14:03:17.122 [DEBUG] org.apache.http.wire -  >> "User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_121)[\r][\n]"
+2018-11-22 14:03:17.122 [DEBUG] org.apache.http.wire -  >> "[\r][\n]"
+2018-11-22 14:03:17.122 [DEBUG] org.apache.http.headers - >> POST /openapi/api/v2 HTTP/1.1
+2018-11-22 14:03:17.122 [DEBUG] org.apache.http.headers - >> Content-Type: application/json
+2018-11-22 14:03:17.122 [DEBUG] org.apache.http.headers - >> Content-Length: 15
+2018-11-22 14:03:17.122 [DEBUG] org.apache.http.headers - >> Content-Type: application/json
+2018-11-22 14:03:17.122 [DEBUG] org.apache.http.headers - >> Host: www.tuling123.com
+2018-11-22 14:03:17.122 [DEBUG] org.apache.http.headers - >> Connection: Keep-Alive
+2018-11-22 14:03:17.122 [DEBUG] org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_121)
+2018-11-22 14:03:17.122 [DEBUG] org.apache.http.wire -  >> "{'key':'???14'}"
+2018-11-22 14:03:17.176 [DEBUG] org.apache.http.wire -  << "HTTP/1.1 500 Internal Server Error[\r][\n]"
+2018-11-22 14:03:17.176 [DEBUG] org.apache.http.wire -  << "Date: Thu, 22 Nov 2018 06:03:17 GMT[\r][\n]"
+2018-11-22 14:03:17.176 [DEBUG] org.apache.http.wire -  << "Content-Type: text/html; charset=UTF-8[\r][\n]"
+2018-11-22 14:03:17.176 [DEBUG] org.apache.http.wire -  << "Content-Length: 193[\r][\n]"
+2018-11-22 14:03:17.176 [DEBUG] org.apache.http.wire -  << "Connection: keep-alive[\r][\n]"
+2018-11-22 14:03:17.176 [DEBUG] org.apache.http.wire -  << "[\r][\n]"
+2018-11-22 14:03:17.176 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 500 Internal Server Error
+2018-11-22 14:03:17.176 [DEBUG] org.apache.http.headers - << HTTP/1.1 500 Internal Server Error
+2018-11-22 14:03:17.176 [DEBUG] org.apache.http.headers - << Date: Thu, 22 Nov 2018 06:03:17 GMT
+2018-11-22 14:03:17.176 [DEBUG] org.apache.http.headers - << Content-Type: text/html; charset=UTF-8
+2018-11-22 14:03:17.176 [DEBUG] org.apache.http.headers - << Content-Length: 193
+2018-11-22 14:03:17.176 [DEBUG] org.apache.http.headers - << Connection: keep-alive
+2018-11-22 14:03:17.176 [DEBUG] com.yy.util.SSLClient - Connection can be kept alive indefinitely
+2018-11-22 14:03:17.176 [DEBUG] org.apache.http.wire -  << "<html>[\r][\n]"
+2018-11-22 14:03:17.176 [DEBUG] org.apache.http.wire -  << "<head><title>500 Internal Server Error</title></head>[\r][\n]"
+2018-11-22 14:03:17.176 [DEBUG] org.apache.http.wire -  << "<body bgcolor="white">[\r][\n]"
+2018-11-22 14:03:17.176 [DEBUG] org.apache.http.wire -  << "<center><h1>500 Internal Server Error</h1></center>[\r][\n]"
+2018-11-22 14:03:17.176 [DEBUG] org.apache.http.wire -  << "<hr><center>nginx/1.11.5</center>[\r][\n]"
+2018-11-22 14:03:17.176 [DEBUG] org.apache.http.wire -  << "</body>[\r][\n]"
+2018-11-22 14:03:17.176 [DEBUG] org.apache.http.wire -  << "</html>[\r][\n]"
+2018-11-22 14:03:17.180 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@5a5a729f
+2018-11-22 14:03:17.180 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager - Connection can be kept alive indefinitely
+2018-11-22 14:03:17.180 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:1432<->39.107.192.176:80 closed
+2018-11-22 14:03:18.522 [DEBUG] freemarker.cache - Couldn't find template in cache for "index.ftl"("en", UTF-8, parsed); will try to load it.
+2018-11-22 14:03:18.524 [DEBUG] freemarker.cache - TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+2018-11-22 14:03:18.529 [DEBUG] freemarker.cache - TemplateLoader.findTemplateSource("index.ftl"): Found
+2018-11-22 14:03:18.530 [DEBUG] freemarker.cache - Loading template for "index.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Administrator/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/index.ftl"
+2018-11-22 14:03:20.708 [DEBUG] freemarker.cache - Couldn't find template in cache for "head.ftl"("en", UTF-8, parsed); will try to load it.
+2018-11-22 14:03:20.708 [DEBUG] freemarker.cache - TemplateLoader.findTemplateSource("head_en.ftl"): Not found
+2018-11-22 14:03:20.708 [DEBUG] freemarker.cache - TemplateLoader.findTemplateSource("head.ftl"): Found
+2018-11-22 14:03:20.708 [DEBUG] freemarker.cache - Loading template for "head.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Administrator/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/head.ftl"
+2018-11-22 14:03:20.716 [DEBUG] freemarker.cache - Couldn't find template in cache for "nav.ftl"("en", UTF-8, parsed); will try to load it.
+2018-11-22 14:03:20.716 [DEBUG] freemarker.cache - TemplateLoader.findTemplateSource("nav_en.ftl"): Not found
+2018-11-22 14:03:20.716 [DEBUG] freemarker.cache - TemplateLoader.findTemplateSource("nav.ftl"): Found
+2018-11-22 14:03:20.716 [DEBUG] freemarker.cache - Loading template for "nav.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Administrator/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/nav.ftl"
+2018-11-22 14:03:20.745 [DEBUG] freemarker.cache - Couldn't find template in cache for "test-view/test-view.ftl"("en", UTF-8, parsed); will try to load it.
+2018-11-22 14:03:20.746 [DEBUG] freemarker.cache - TemplateLoader.findTemplateSource("test-view/test-view_en.ftl"): Not found
+2018-11-22 14:03:20.746 [DEBUG] freemarker.cache - TemplateLoader.findTemplateSource("test-view/test-view.ftl"): Found
+2018-11-22 14:03:20.746 [DEBUG] freemarker.cache - Loading template for "test-view/test-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Administrator/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view.ftl"
+2018-11-22 14:03:20.760 [DEBUG] freemarker.cache - Couldn't find template in cache for "test-view/test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+2018-11-22 14:03:20.760 [DEBUG] freemarker.cache - TemplateLoader.findTemplateSource("test-view/test-view-charts_en.ftl"): Not found
+2018-11-22 14:03:20.761 [DEBUG] freemarker.cache - TemplateLoader.findTemplateSource("test-view/test-view-charts.ftl"): Found
+2018-11-22 14:03:20.761 [DEBUG] freemarker.cache - Loading template for "test-view/test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Administrator/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view-charts.ftl"
+2018-11-22 14:03:20.778 [DEBUG] freemarker.cache - Couldn't find template in cache for "test-view/standard.ftl"("en", UTF-8, parsed); will try to load it.
+2018-11-22 14:03:20.778 [DEBUG] freemarker.cache - TemplateLoader.findTemplateSource("test-view/standard_en.ftl"): Not found
+2018-11-22 14:03:20.778 [DEBUG] freemarker.cache - TemplateLoader.findTemplateSource("test-view/standard.ftl"): Found
+2018-11-22 14:03:20.778 [DEBUG] freemarker.cache - Loading template for "test-view/standard.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Administrator/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/standard.ftl"
+2018-11-22 14:03:20.802 [DEBUG] freemarker.cache - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2018-11-22 14:03:20.802 [DEBUG] freemarker.cache - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2018-11-22 14:03:20.806 [DEBUG] freemarker.cache - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2018-11-22 14:03:20.810 [DEBUG] freemarker.cache - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2018-11-22 14:03:20.814 [DEBUG] freemarker.cache - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2018-11-22 14:03:20.814 [DEBUG] freemarker.cache - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2018-11-22 14:03:20.817 [DEBUG] freemarker.cache - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2018-11-22 14:03:20.821 [DEBUG] freemarker.cache - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2018-11-22 14:03:20.821 [DEBUG] freemarker.cache - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2018-11-22 14:03:20.825 [DEBUG] freemarker.cache - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2018-11-22 14:03:20.825 [DEBUG] freemarker.cache - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2018-11-22 14:03:20.829 [DEBUG] freemarker.cache - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2018-11-22 14:03:20.829 [DEBUG] freemarker.cache - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2018-11-22 14:03:20.833 [DEBUG] freemarker.cache - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2018-11-22 14:03:20.837 [DEBUG] freemarker.cache - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2018-11-22 14:03:20.845 [DEBUG] freemarker.cache - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2018-11-22 14:03:20.849 [DEBUG] freemarker.cache - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2018-11-22 14:03:20.849 [DEBUG] freemarker.cache - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2018-11-22 14:03:20.849 [DEBUG] freemarker.cache - Couldn't find template in cache for "category-view/category-view.ftl"("en", UTF-8, parsed); will try to load it.
+2018-11-22 14:03:20.849 [DEBUG] freemarker.cache - TemplateLoader.findTemplateSource("category-view/category-view_en.ftl"): Not found
+2018-11-22 14:03:20.853 [DEBUG] freemarker.cache - TemplateLoader.findTemplateSource("category-view/category-view.ftl"): Found
+2018-11-22 14:03:20.853 [DEBUG] freemarker.cache - Loading template for "category-view/category-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Administrator/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/category-view/category-view.ftl"
+2018-11-22 14:03:20.864 [DEBUG] freemarker.cache - Couldn't find template in cache for "author-view/author-view.ftl"("en", UTF-8, parsed); will try to load it.
+2018-11-22 14:03:20.864 [DEBUG] freemarker.cache - TemplateLoader.findTemplateSource("author-view/author-view_en.ftl"): Not found
+2018-11-22 14:03:20.864 [DEBUG] freemarker.cache - TemplateLoader.findTemplateSource("author-view/author-view.ftl"): Found
+2018-11-22 14:03:20.864 [DEBUG] freemarker.cache - Loading template for "author-view/author-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Administrator/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/author-view/author-view.ftl"
+2018-11-22 14:03:20.931 [DEBUG] freemarker.cache - Couldn't find template in cache for "exception-view/exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+2018-11-22 14:03:20.931 [DEBUG] freemarker.cache - TemplateLoader.findTemplateSource("exception-view/exception-view_en.ftl"): Not found
+2018-11-22 14:03:20.931 [DEBUG] freemarker.cache - TemplateLoader.findTemplateSource("exception-view/exception-view.ftl"): Found
+2018-11-22 14:03:20.931 [DEBUG] freemarker.cache - Loading template for "exception-view/exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Administrator/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/exception-view/exception-view.ftl"
+2018-11-22 14:03:20.946 [DEBUG] freemarker.cache - Couldn't find template in cache for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+2018-11-22 14:03:20.946 [DEBUG] freemarker.cache - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view_en.ftl"): Not found
+2018-11-22 14:03:20.946 [DEBUG] freemarker.cache - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view.ftl"): Found
+2018-11-22 14:03:20.946 [DEBUG] freemarker.cache - Loading template for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Administrator/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/dashboard-view/dashboard-view.ftl"
+2018-11-22 14:03:20.962 [DEBUG] freemarker.cache - Couldn't find template in cache for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+2018-11-22 14:03:20.962 [DEBUG] freemarker.cache - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en.ftl"): Not found
+2018-11-22 14:03:20.962 [DEBUG] freemarker.cache - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view.ftl"): Found
+2018-11-22 14:03:20.966 [DEBUG] freemarker.cache - Loading template for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Administrator/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/logs-view/testrunner-logs-view.ftl"

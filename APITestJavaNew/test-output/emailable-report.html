@@ -8,71 +8,35 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="7">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">2</td><td class="num">0</td><td class="num attn">2</td><td class="num">145</td><td></td><td></td></tr>
+<tr><th colspan="7">Suite</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">16</td><td class="num attn">2</td><td class="num attn">1</td><td class="num">4,074</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">com.yy.test.NewTest</td><td><a href="#m0">f</a></td><td rowspan="1">1542862050061</td><td rowspan="1">0</td></tr><tr class="failedeven"><td><a href="#m1">test3</a></td><td rowspan="1">1542862050139</td><td rowspan="1">0</td></tr><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.yy.test.NewTest</td><td><a href="#m2">test1</a></td><td rowspan="1">1542862050108</td><td rowspan="1">16</td></tr><tr class="passedeven"><td><a href="#m3">test2</a></td><td rowspan="1">1542862050139</td><td rowspan="1">0</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.yy.test.NewTest</td><td><a href="#m0">test3</a></td><td rowspan="1">1542866597219</td><td rowspan="1">4</td></tr><tr><th colspan="4">Test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="2">com.yy.test.NewTest</td><td><a href="#m1">test3</a></td><td rowspan="2">1542866597215</td><td rowspan="2">0</td></tr><tr class="skippedeven"><td><a href="#m2">test3</a></td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="16">com.yy.test.NewTest</td><td><a href="#m3">f</a></td><td rowspan="14">1542866596829</td><td rowspan="14">113</td></tr><tr class="passedeven"><td><a href="#m4">f</a></td></tr><tr class="passedeven"><td><a href="#m5">f</a></td></tr><tr class="passedeven"><td><a href="#m6">f</a></td></tr><tr class="passedeven"><td><a href="#m7">f</a></td></tr><tr class="passedeven"><td><a href="#m8">f</a></td></tr><tr class="passedeven"><td><a href="#m9">f</a></td></tr><tr class="passedeven"><td><a href="#m10">f</a></td></tr><tr class="passedeven"><td><a href="#m11">f</a></td></tr><tr class="passedeven"><td><a href="#m12">f</a></td></tr><tr class="passedeven"><td><a href="#m13">f</a></td></tr><tr class="passedeven"><td><a href="#m14">f</a></td></tr><tr class="passedeven"><td><a href="#m15">f</a></td></tr><tr class="passedeven"><td><a href="#m16">f</a></td></tr><tr class="passedeven"><td><a href="#m17">test1</a></td><td rowspan="1">1542866597188</td><td rowspan="1">8</td></tr><tr class="passedeven"><td><a href="#m18">test2</a></td><td rowspan="1">1542866597200</td><td rowspan="1">4</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">com.yy.test.NewTest#f</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.TestNGException: 
-Data Provider public java.lang.Object[][] com.yy.test.NewTest.dp() returned a null value
-	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:133)
-	at org.testng.internal.Parameters.handleParameters(Parameters.java:706)
-	at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:49)
-	at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:37)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:924)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:648)
-	at org.testng.TestRunner.run(TestRunner.java:505)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.yy.test.NewTest#test3</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [1] but found [2]
-	at org.testng.Assert.fail(Assert.java:96)
-	at org.testng.Assert.failNotEquals(Assert.java:776)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
-	at org.testng.Assert.assertEquals(Assert.java:118)
-	at org.testng.Assert.assertEquals(Assert.java:453)
-	at org.testng.Assert.assertEquals(Assert.java:463)
+<h2>Test</h2><h3 id="m0">com.yy.test.NewTest#test3</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [1] but found [2]
 	at com.yy.test.NewTest.test3(NewTest.java:36)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:648)
-	at org.testng.TestRunner.run(TestRunner.java:505)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">com.yy.test.NewTest#test1</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">com.yy.test.NewTest#test2</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.yy.test.NewTest#test3</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [1] but found [2]
+	at com.yy.test.NewTest.test3(NewTest.java:36)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.yy.test.NewTest#test3</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [1] but found [2]
+	at com.yy.test.NewTest.test3(NewTest.java:36)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.yy.test.NewTest#f</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th></tr><tr class="param stripe"><td>http://www.tuling123.com</td><td>/openapi/api/v2</td><td>POST</td><td>{&apos;key&apos;:&apos;你好！12&apos;}</td><td>4000</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.yy.test.NewTest#f</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th></tr><tr class="param stripe"><td>http://www.tuling123.com</td><td>/openapi/api/v2</td><td>POST</td><td>{&apos;key&apos;:&apos;你好！1&apos;}</td><td>4000</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.yy.test.NewTest#f</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th></tr><tr class="param stripe"><td>http://www.tuling123.com</td><td>/openapi/api/v2</td><td>POST</td><td>{&apos;key&apos;:&apos;你好！6&apos;}</td><td>4000</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.yy.test.NewTest#f</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th></tr><tr class="param stripe"><td>http://www.tuling123.com</td><td>/openapi/api/v2</td><td>POST</td><td>{&apos;key&apos;:&apos;你好！11&apos;}</td><td>4000</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.yy.test.NewTest#f</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th></tr><tr class="param stripe"><td>http://www.tuling123.com</td><td>/openapi/api/v2</td><td>POST</td><td>{&apos;key&apos;:&apos;你好！4&apos;}</td><td>4000</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.yy.test.NewTest#f</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th></tr><tr class="param stripe"><td>http://www.tuling123.com</td><td>/openapi/api/v2</td><td>POST</td><td>{&apos;key&apos;:&apos;你好！5&apos;}</td><td>4000</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">com.yy.test.NewTest#f</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th></tr><tr class="param stripe"><td>http://www.tuling123.com</td><td>/openapi/api/v2</td><td>POST</td><td>{&apos;key&apos;:&apos;你好！3&apos;}</td><td>4000</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">com.yy.test.NewTest#f</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th></tr><tr class="param stripe"><td>http://www.tuling123.com</td><td>/openapi/api/v2</td><td>POST</td><td>{&apos;key&apos;:&apos;你好！8&apos;}</td><td>4000</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">com.yy.test.NewTest#f</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th></tr><tr class="param stripe"><td>http://www.tuling123.com</td><td>/openapi/api/v2</td><td>POST</td><td>{&apos;key&apos;:&apos;你好！9&apos;}</td><td>4000</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">com.yy.test.NewTest#f</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th></tr><tr class="param stripe"><td>http://www.tuling123.com</td><td>/openapi/api/v2</td><td>POST</td><td>{&apos;key&apos;:&apos;你好！10&apos;}</td><td>4000</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">com.yy.test.NewTest#f</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th></tr><tr class="param stripe"><td>http://www.tuling123.com</td><td>/openapi/api/v2</td><td>POST</td><td>{&apos;key&apos;:&apos;你好！2&apos;}</td><td>4000</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">com.yy.test.NewTest#f</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th></tr><tr class="param stripe"><td>http://www.tuling123.com</td><td>/openapi/api/v2</td><td>POST</td><td>{&apos;key&apos;:&apos;你好！14&apos;}</td><td>4000</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">com.yy.test.NewTest#f</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th></tr><tr class="param stripe"><td>http://www.tuling123.com</td><td>/openapi/api/v2</td><td>POST</td><td>{&apos;key&apos;:&apos;你好！7&apos;}</td><td>4000</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m16">com.yy.test.NewTest#f</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th></tr><tr class="param stripe"><td>http://www.tuling123.com</td><td>/openapi/api/v2</td><td>POST</td><td>{&apos;key&apos;:&apos;你好！13&apos;}</td><td>4000</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m17">com.yy.test.NewTest#test1</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m18">com.yy.test.NewTest#test2</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

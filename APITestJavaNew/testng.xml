@@ -6,4 +6,12 @@
       <class name="com.yy.test.NewTest"/>
     </classes>
   </test> <!-- Test -->
+   <listeners>	
+		<listener class-name="com.yy.listener.TestResultListener"></listener>
+		<listener class-name="com.yy.listener.RetryListener"></listener>
+	
+		
+		<!-- ExtentReport 报告  -->
+		<listener class-name="com.yy.listener.ExtentReporterListener"></listener>
+	</listeners>
 </suite> <!-- Suite -->

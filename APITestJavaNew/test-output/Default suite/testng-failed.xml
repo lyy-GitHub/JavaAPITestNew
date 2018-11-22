@@ -6,7 +6,6 @@
       <class name="com.yy.test.NewTest">
         <methods>
           <include name="test3"/>
-          <include name="f"/>
         </methods>
       </class> <!-- com.yy.test.NewTest -->
     </classes>

@@ -17,7 +17,7 @@ import com.yy.util.HttpClientUtil;
 public class NewTest {
 	
 	String baseDir=System.getProperty("user.dir");
-	String casePath=baseDir+File.separator+"testCaseData\\casedata.xlsx";
+	String casePath=baseDir+File.separator+"src/main/java/casedata.xlsx";
   @Test(dataProvider = "dp")
   public void f(String url,String path,String meth,String map,String qiwang) {
 	  String result=HttpClientUtil.GenerateRequest(url,path,meth,map);
